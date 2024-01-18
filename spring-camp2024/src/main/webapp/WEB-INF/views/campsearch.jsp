@@ -28,7 +28,6 @@
 	    <!-- Template Main CSS File -->
 	    <link href="assets/css/main2.css" rel="stylesheet">
 	    <link href="assets/css/header.css" rel="stylesheet">
-		<link href="assets/css/listStyle.css" rel="stylesheet">
 	    <link href="assets/css/campsearch.css" rel="stylesheet">
 	    
 	    <style>
@@ -44,7 +43,7 @@
 		
 		   
 			<!-- 캠핑장 검색 -->
-		    	<h1 style="float: center; font-weight: 700; margin: 150px 0 50px 0;">캠핑장 검색</h1>
+		    	<h1>캠핑장 검색</h1>
 		    	
 			<!-- 체크박스 -->
 			
@@ -377,6 +376,23 @@
                 </li>
             </ul>
         </div>
+        
+        <ul class="bottom_number">
+	      <li class="first"></li>
+	      <li class="prev"></li>
+	      <li class="number">1</li>
+	      <li class="number">2</li>
+	      <li class="number">3</li>
+	      <li class="number">4</li>
+	      <li class="number">5</li>
+	      <li class="number">6</li>
+	      <li class="number">7</li>
+	      <li class="number">8</li>
+	      <li class="number">9</li>
+	      <li class="number">10</li>
+	      <li class="next"></li>
+	      <li class="last"></li>
+		</ul>
   
 </section>
 

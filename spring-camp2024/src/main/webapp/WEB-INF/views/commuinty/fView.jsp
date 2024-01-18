@@ -40,50 +40,56 @@
 		
 		   
 			<!-- 공지사항 리스트 -->
-	    	<h1 style="float: left; margin: 40px; font-weight: 700; position: relative; left:50px;">자유게시판 게시글</h1>
+	    	<h1 style="float: left; margin: 40px 0 0 700px; font-weight: 700; position: relative; left:50px;">자유게시판 게시글</h1>
 		    <table>
 		     <colgroup>
-		        <col width="5%">
-		        <col width="75%">
 		        <col width="10%">
-		        <col width="10%">
+		        <col width="63%">
+		        <col width="15%">
+		        <col width="12%">
    			</colgroup>
 		    
 		      <tr>
-		        <th style="text-align: center;"><strong>1007&nbsp;&nbsp; |</strong></th>
-		        <th style="text-align: left;">게시글 제목이 들어갑니다.</span></th>
-		        <th style="text-align: right;"><strong>작성일 |</strong></th>
+		        <th style="text-align: center;"><strong>1007&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp |</strong></th>
+		        <th style="text-align: left;"><span>게시글 제목이 들어갑니다.</span></th>
+		        <th style="text-align: right;"><strong>작성일&nbsp&nbsp&nbsp&nbsp |</strong></th>
 		        <th>2019-12-11</th>
 		      </tr>
 		      <tr style="border-bottom: 2px solid #009223">
-		        <td style="text-align: center;"><strong>작성자 | </strong style="text-align: center;"></td>
+		        <td style="text-align: center;"><strong>작성자&nbsp&nbsp&nbsp&nbsp | </strong style="text-align: center;"></td>
 		        <td>관리자</td>
-		        <td style="text-align: right;"><strong>조회수 | </strong></td>
+		        <td style="text-align: right;"><strong>조회수&nbsp&nbsp&nbsp&nbsp | </strong></td>
 		        <td>123</td>
 		      </tr>
 		      <tr>
 		        <td colspan="4" class="article">게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.</td>
 		      </tr>
-		      <tr style="border-bottom: 2px solid #009223; line-height: 10px;">
-		        <td colspan="4" class="article"><strong>첨부파일 | </strong>※&nbsp;&nbsp;첨부파일 없음</td>
+		       <tr style="border-bottom: 2px solid #009223;">
+		        <td class="article"><strong>첨부파일&nbsp&nbsp&nbsp&nbsp | </strong>
+		        </td>
+		        <td colspan="3">※첨부파일 없음</td>
 		      </tr>
 		    </table>
+		    
+		    <!-- 버튼 -->
+		    <div class="listBtn">
+		    	<button class="list">삭제</button>
+		    	<button class="list">수정</button>
+		    	<a href="pList"><button class="list">목록</button></a>
+		    </div>
 		    
 		    <!-- 댓글입력-->
 			 <table>
 			  <tr>
-			  	<td style="display: flex; border: 1px solid white; ">
-				  	<textarea placeholder=" ※ 댓글을 입력하세요. (타인을 향한 욕설 및 비방은 무통보 삭제됩니다.)" style="width: 100%; "></textarea>
+			  	<td style="display: flex; border: 1px solid white; margin: -80px 0 0 -20px;">
+				  	<textarea placeholder=" ※ 댓글을 입력하세요. (타인을 향한 욕설 및 비방은 무통보 삭제됩니다.)" style="width: 1200px; "></textarea>
 				  	<button id="replybtn">등록</button>
 			  	</td>
 			  </tr>
-		    	<div class="list">삭제</div>
-		    	<div class="list">수정</div>
-		    	<a href="fList"><div class="list">목록</div></a><br><br><br>
 		   	</table>
 		   
 		    <!-- 이전글/다음글-->
-		    <table>
+		    <table style="margin-top: 30px; margin-bottom: 30px;">
 		      <tr>
 		        <td colspan="4"><strong>다음글</strong> <span class="separator">|</span><a href="#"> [키즈잼] 2월 프로그램 안내</a></td>
 		      </tr>
@@ -92,8 +98,9 @@
 		      </tr>
 		    </table>
 		    <!-- 이전글/다음글 끝-->
+		    
 		    <!-- 댓글보기-->
-		    <table>
+		    <table style="margin-top: 30px;">
 		      <td style="font-weight: 700">총<strong style="color: #009223">&nbsp;&nbsp;5</strong>&nbsp;개의 댓글이 등록되었습니다.</td>
 			  <tr>
 				<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12 15:27:23:00]</span>

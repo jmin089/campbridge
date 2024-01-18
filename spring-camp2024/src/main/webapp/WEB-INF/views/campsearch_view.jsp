@@ -28,8 +28,7 @@
 	    <!-- Template Main CSS File -->
 	    <link href="assets/css/main2.css" rel="stylesheet">
 	    <link href="assets/css/header.css" rel="stylesheet">
-		<link href="assets/css/listStyle.css" rel="stylesheet">
-	    <link href="assets/css/campsearch.css" rel="stylesheet">
+		<link href="assets/css/campsearch.css" rel="stylesheet">
 	    
 	    <style>
         
@@ -40,10 +39,10 @@
 	<%@include file="include/header.jsp" %>
 	<!-- End Header -->
 	
-	<section class="notice">
+	<section class="notice_search">
 		
 	<!-- 캠핑장 정보 -->
-	<h1 style="float: center; font-weight: 700; margin: 150px 0 50px 0;">캠핑장 정보</h1>
+	<h1>캠핑장 정보</h1>
 			    	
 	<header class="camp_top_info">
 	
@@ -101,7 +100,7 @@
 		</div>
 	</header>
 					
-	<div>
+	<div class="tabmenu_ti">
 	    <input type="radio" name="tabmenu" id="tab01" checked>
 	    <label for="tab01">캠핑장 소개</label>
 	    <input type="radio" name="tabmenu" id="tab02">
@@ -156,7 +155,7 @@
 								<li>개인 트레일러 입장가능</li>
 								<li>반려동물 동반 불가능</li>
 							</ul>
-				(※ 실제 결과는 현장사정 및 계절에 따라 달라질 수 있으니 캠핑장 사업주에 직접 확인 후 이용바랍니다.)
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(※ 실제 결과는 현장사정 및 계절에 따라 달라질 수 있으니 캠핑장 사업주에 직접 확인 후 이용바랍니다.)
 						</td>
 					</tr>
 					<tr>

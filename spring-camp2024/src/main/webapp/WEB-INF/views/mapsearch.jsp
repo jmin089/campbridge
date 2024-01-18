@@ -28,153 +28,30 @@
 	    <!-- Template Main CSS File -->
 	    <link href="assets/css/main2.css" rel="stylesheet">
 	    <link href="assets/css/header.css" rel="stylesheet">
-		<link href="assets/css/listStyle.css" rel="stylesheet">
-	    <link href="assets/css/campsearch.css" rel="stylesheet">
+		
 	    
 	    <style>
-        
-    </style>
+        	*{margin: 0; padding: 0}
+        	section{margin: 150px 50px;}
+        	.notice_search a{color: black;}
+        	h1{float: center; font-weight: 700; margin: 50px 0 80px 780px;}
+        	button{width:150px; height:40px; font-weight: 700; border-radius: 10px; margin: -20px 0 10px 1300px; border: none; background: #ffce32;}
+        	img{margin: 20px 0 0 305px;}
+    	</style>
 	</head>
 	<body>
 	<!-- ======= Header ======= -->
 	<%@include file="include/header.jsp" %>
 	<!-- End Header -->
 	
-		<section class="notice">
+	<section class="notice_search">
 		
-		   
-			<!-- 캠핑장 검색 -->
-		    	<h1 style="float: center; font-weight: 700; margin: 150px 0 50px 0;">지도 검색</h1>
-		    	
-			
-					
-		    <!-- 카드형 리스트 -->
-		    <div class="list_wrap">
-            <ul>
-                <li class="item item1">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="/mapsearch_view">바로가기</a>
-                    </div>
-                </li>
-                <li class="item item2">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="#">바로가기</a>
-                    </div>
-                </li>
-                <li class="item item3">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="#">바로가기</a>
-                    </div>
-                </li>
-                <li class="item item4">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="#">바로가기</a>
-                    </div>
-                </li>
-                <li class="item item5">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="#">바로가기</a>
-                    </div>
-                </li>
-                <li class="item item6">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="#">바로가기</a>
-                    </div>
-                </li>
-                <li class="item item7">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="#">바로가기</a>
-                    </div>
-                </li>
-                <li class="item item8">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="#">바로가기</a>
-                    </div>
-                </li>
-                <li class="item item9">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="#">바로가기</a>
-                    </div>
-                </li>
-                <li class="item item10">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="#">바로가기</a>
-                    </div>
-                </li>
-                <li class="item item11">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="#">바로가기</a>
-                    </div>
-                </li>
-                <li class="item item12">
-                    <div class="image">사진</div>
-                    <div class="cont">
-                        <strong>캠핑장이름</strong>
-                        <p>캠핑장주소</p>
-                        <p>캠핑장연락처</p>
-                        <p>캠핑장소개내용</p>
-                        <a href="#">바로가기</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
+	<!-- 캠핑장 검색 -->
+	<h1>지도 검색</h1>
+	    <button><a href="/campsearch">캠핑장검색으로</a></button>
+	   	<img src="../assets/img/campsearch/map.png">
   
-</section>
+	</section>
 
 		
 		<!-- ======= Footer ======= -->
