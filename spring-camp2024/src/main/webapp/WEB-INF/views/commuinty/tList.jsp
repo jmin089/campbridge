@@ -1,10 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>캠핑꿀팁</title>
+		<title>캠핑꿀팁(Tip) 게시판</title>
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	    <meta content="" name="description">
 	    <meta content="" name="keywords">
@@ -36,8 +38,8 @@
 	<!-- End Header -->
 	
 		<section class="notice">
-			<!-- 공지사항 리스트 -->
-	    	<h1 style="margin: 10px; font-weight: 700; position: relative; top: 70px; left: -560px; ">캠핑꿀팁(Tip)</h1>
+			<!-- 꿀팁게시판 리스트 -->
+	    	<h1 style="margin: 10px; font-weight: 700; position: relative; top: 40px; left: -550px; ">캠핑꿀팁(Tip)</h1>
 		    <!-- 검색창 -->
 		    <div class="searchDiv">
 			  <form action="" method="get" name="searchFrm">
@@ -139,9 +141,10 @@
 			      </tr>
 		  		</div>
 		    </table>
-			 	<button class="write">글쓰기</button>
+			 	<a href="tWrite"><button class="write">글쓰기</button></a>
   			 	<button class="write" onclick="location.href='/'">메인홈</button>
 	    	
+	    	<!-- 하단넘버링 시작 -->
 		     <ul class="page-num">
 			      <li class="first"></li>
 			      <li class="prev"></li>
@@ -158,6 +161,7 @@
 			      <li class="next"></li>
 			      <li class="last"></li>
    			 </ul>
+   			 <!-- 하단넘버링 끝 -->
 		</section>
 		
 		<!-- ======= Footer ======= -->

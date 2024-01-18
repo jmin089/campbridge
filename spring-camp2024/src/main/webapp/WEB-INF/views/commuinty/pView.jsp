@@ -94,10 +94,70 @@
 		    
 		    <!-- 참석자 -->
 		    <div class="participant">
-		    	<div class="participant_no"></div>
-		    	<div class="participant_no"></div>
-		    	<div class="participant_no"></div>
-		    	<div class="participant_no"></div>
+		    	<div class="participant_no">
+		    		<div class="participant_img">
+		    		<img src="../assets/img/party/participant_no1.png" alt="모집자">
+		    		</div>
+			    	<div class="participant_in">
+			    	<tr>
+			    		<td><strong>아이디</strong>
+			    			<td>aaa</td>
+			    		</td>
+			    		</br>
+			    		<td><strong>닉네임</strong>
+			    			<td>항공5기</td>
+			    		</td>
+			    	</tr>
+		    		</div>
+		    	</div>
+		    	<div class="participant_no">
+		    		<div class="participant_img">
+		    		<img src="../assets/img/party/participant_no.png" alt="모집중">
+		    		</div>
+			    	<div class="participant_in">
+			    	<tr>
+			    		<td><strong>아이디</strong>
+			    			<td>aaa</td>
+			    		</td>
+			    		</br>
+			    		<td><strong>닉네임</strong>
+			    			<td>항공5기</td>
+			    		</td>
+			    	</tr>
+		    		</div>
+		    	</div>
+		    	<div class="participant_no">
+		    		<div class="participant_img">
+		    		<img src="../assets/img/party/participant_no.png" alt="모집중">
+		    		</div>
+			    	<div class="participant_in">
+			    	<tr>
+			    		<td><strong>아이디</strong>
+			    			<td>aaa</td>
+			    		</td>
+			    		</br>
+			    		<td><strong>닉네임</strong>
+			    			<td>항공5기</td>
+			    		</td>
+			    	</tr>
+		    		</div>
+		    	</div>
+		    	<div class="participant_no">
+		    		<div class="participant_img">
+		    		<img src="../assets/img/party/participant_no.png" alt="모집중">
+		    		</div>
+			    	<div class="participant_in">
+			    	<tr>
+			    		<td><strong>아이디</strong>
+			    			<td>aaa</td>
+			    		</td>
+			    		</br>
+			    		<td><strong>닉네임</strong>
+			    			<td>항공5기</td>
+			    		</td>
+			    	</tr>
+		    		</div>
+		    	</div>
 		    </div>
 		    
 		    <!-- 버튼 -->

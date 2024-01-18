@@ -22,7 +22,7 @@
 	      <li><a href="/nList">공지사항</a></li>
 	      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
 	      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-	      <a class="btn-book-a-table" href="#book-a-table">용품대여</a>
+	      <a class="btn-book-a-table" href="/cpRent">용품대여</a>
 	      </div>
 	    </div>
 		  	
@@ -31,30 +31,31 @@
 	        <ul>
 	          <li class="dropdown"><a href="#">CampBridge 소개<i class="bi bi-chevron-down dropdown-indicator"></i></a>
 		          <ul>
-		              <li><a href="/weather">사이트 소개</a></li>
-		              <li><a href="#">개발팀 소개</a></li>
+		              <li><a href="#">사이트 소개</a></li>
+		              <li><a href="/developers">campbridge 소개</a></li>
+		              <li><a href="/adminPage">관리자</a></li>
 		          </ul>
 	          </li>
 	          <li class="dropdown"><a href="#">캠핑장 검색</a>
 	          	<ul>
 		            <li><a href="/campsearch">캠핑장 검색</a></li>
 		            <li><a href="/mapsearch">지도 검색</a></li>
-		            <li><a href="#">추천 검색</a></li>
+		            <li><a href="/recommendsearch">추천 검색</a></li>
 		        </ul>
 	          </li>
-	          <li><a href="#">테마검색</a></li>
+	          <li><a href="/tSearch">테마검색</a></li>
 	          <li class="dropdown"><a href="#"><span>커뮤니티</span></a>
 	            <ul>
 	              <li><a href="/commuinty/pList">파티원모집</a></li>
 		          <li><a href="/commuinty/tList">캠핑꿀팁(Tip)</a></li>
-	              <li><a href="#">중고거래&캠핑장 양도</a></li>
+	              <li><a href="/used">중고거래&캠핑장 양도</a></li>
 	              <li><a href="/commuinty/fList">자유게시판</a></li>
 	            </ul>
 	          </li>
 	          <li class="dropdown"><a href="#">리뷰</a>
 		          <ul>
-		              <li><a href="#">캠핑장 리뷰</a></li>
-		              <li><a href="#">캠핑용품 리뷰</i></a></li>
+		              <li><a href="/review">캠핑장 리뷰</a></li>
+		              <li><a href="/usedcontent">캠핑용품 리뷰</i></a></li>
 		          </ul>
 	          </li>
 	          <li><a href="#contact">픽업장소</a></li>

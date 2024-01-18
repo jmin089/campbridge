@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#bType{
+	height: 40px;
+	width: 110px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	border: 2px solid #009223;
+	border-radius: 10px;
+}
+
+textarea{
+	width: 100%;
+	
+}
+
+#f_btitle{
+	width: 100%;
+}
+

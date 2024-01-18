@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -36,8 +38,8 @@
 	<!-- End Header -->
 	
 		<section class="notice">
-			<!-- 공지사항 리스트 -->
-<h1 style="margin: 10px; font-weight: 700; position: relative; top: 70px; left: -560px; ">공지사항</h1>
+		<!-- 공지사항 리스트 -->
+		<h1 style="margin: 10px; font-weight: 700; position: relative; top: 40px; left: -600px; ">공지사항</h1>
 		    <!-- 검색창 -->
 		    <div class="searchDiv">
 			  <form action="" method="get" name="searchFrm">
@@ -54,14 +56,16 @@
 			<table>
 		  		<div class="page-title">
 			      <colgroup>
-			        <col width="10%">
-			        <col width="55%">
+			        <col width="8%">
+			        <col width="12%">
+			        <col width="44%">
 			        <col width="15%">
 			        <col width="10%">
 			        <col width="10%">
 			      </colgroup>
 			      <tr>
 			        <th>No.</th>
+			        <th>게시글 유형</th>
 			        <th>제목</th>
 			        <th>작성자</th>
 			        <th>작성일</th>
@@ -69,6 +73,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">1</td>
+			        <td>공지사항</td>
 			        <td class="table-title"><a href="nView">게시글 내용이 들어갑니다.</a></td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -76,6 +81,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">2</td>
+			        <td>공지사항</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -83,6 +89,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">3</td>
+			        <td>공지사항</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -90,6 +97,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">4</td>
+			        <td>공지사항</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -97,6 +105,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">5</td>
+			        <td>공지사항</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -104,6 +113,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">6</td>
+			        <td>공지사항</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -111,6 +121,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">7</td>
+			        <td>공지사항</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -118,6 +129,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">8</td>
+			        <td>공지사항</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -125,6 +137,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">9</td>
+			        <td>공지사항</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -132,6 +145,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">10</td>
+			        <td>공지사항</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -139,9 +153,10 @@
 			      </tr>
 		  		</div>
 		    </table>
-			 	<button class="write">글쓰기</button>
+			 	<a href="nWrite"><button class="write">글쓰기</button></a>
   			 	<button class="write" onclick="location.href='/'">메인홈</button>
 	    	
+	    	<!-- 하단넘버링 시작 -->
 		     <ul class="page-num">
 			      <li class="first"></li>
 			      <li class="prev"></li>
@@ -158,6 +173,7 @@
 			      <li class="next"></li>
 			      <li class="last"></li>
    			 </ul>
+   			 <!-- 하단넘버링 끝 -->
 		</section>
 		
 		<!-- ======= Footer ======= -->
