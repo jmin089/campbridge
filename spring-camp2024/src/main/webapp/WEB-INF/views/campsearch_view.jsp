@@ -86,7 +86,7 @@
 					</tr>
 					<tr>
 						<th scope="col">홈페이지</th>
-						<td><a href="http://cafe.daum.net/solsumcamping" target="_BLANK" title="새창열림">홈페이지 바로가기</a>
+						<td><a href="http://cafe.daum.net/solsumcamping" target="_BLANK" title="새창열림"><strong>홈페이지 바로가기</strong></a>
 						<i class="ico_link"><span class="skip">새창으로</span></i>
 						</td>
 					</tr>
@@ -117,7 +117,7 @@
 			</span>
 			<span class="date_info">최종 정보 수정일 : 2018-09-21</span>
 	    </div>
-	    <div class="conbox con2">컨텐츠탭 내용02</div>
+	    <div class="conbox con2">안에 들어가는 내용으로 높이 자동 맞춤</div>
 	    <div class="conbox con3">컨텐츠탭 내용03</div>
 	    <div class="conbox con4">컨텐츠탭 내용04</div>
 	</div>

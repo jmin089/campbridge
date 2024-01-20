@@ -31,9 +31,9 @@
 	        <ul>
 	          <li class="dropdown"><a href="#">CampBridge 소개<i class="bi bi-chevron-down dropdown-indicator"></i></a>
 		          <ul>
-		              <li><a href="/aboutCB">사이트 소개</a></li>
-		              <li><a href="/developers">campbridge 소개</a></li>
-		              <li><a href="/adminPage">관리자</a></li>
+		              <li><a href="/aboutCB">CampBridge 소개</a></li>
+		              <li><a href="/developers">손발을 do it! 소개</a></li>
+		              <li><a href="/adminPage">CampBridge 관리자</a></li>
 		          </ul>
 	          </li>
 	          <li class="dropdown"><a href="#">캠핑장 검색</a>

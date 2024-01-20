@@ -1,7 +1,6 @@
 package com.java.www.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
@@ -65,6 +64,12 @@ public class FController {
 	@GetMapping("myParty")
 	public String myParty() {
 		return "myParty";
+	}// myParty()
+	
+	//마이 페이지-렌탈
+	@GetMapping("myRental")
+	public String myRental() {
+		return "myRental";
 	}// myParty()
 	
 	//3.공지사항 리스트

@@ -502,7 +502,7 @@
       
 	      <div class="main-visual-news-section first">
 	      	
-	      	<h3 class="main-visual-news-title notice">캠핑꿀팁</h3>
+	      	<h3 class="main-visual-news-title notice">캠핑꿀팁(Tip)</h3>
 	        <div class="main-visual-news-txt">
 	          <ul class="main-list">
 	          
@@ -595,7 +595,7 @@
         <div id="map" style="width:100%; height:350px;"></div>
       
       
-		 <!-- 카카오지도 위치 
+		 <!-- 카카오지도 위치  -->
       <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0c74f5d01be449a3dcaa336db1cd0d99"></script>
         <script>
       		  var mapContainer = document.getElementById('map'),
@@ -610,7 +610,7 @@
       		});
       		marker.setMap(map);
         </script>
-			  -->
+			  
 
         <div class="row gy-4">
 

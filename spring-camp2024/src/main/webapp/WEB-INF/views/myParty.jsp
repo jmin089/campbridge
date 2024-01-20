@@ -1,18 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>나의게시글</title>
-       <script src="http://code.jquery.com/jquery-latest.min.js"></script>
- 	   
+	<head>
+		<meta charset="UTF-8">
+		<title>마이페이지-마이파티</title>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	    <meta content="" name="description">
 	    <meta content="" name="keywords">
-	 	 <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
-		
+	
 	    <!-- Favicons -->
 	    <link href="assets/img/favicon.png" rel="icon">
 	    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -32,130 +28,152 @@
 	    <!-- Template Main CSS File -->
 	    <link href="assets/css/main2.css" rel="stylesheet">
 	    <link href="assets/css/header.css" rel="stylesheet">
-    
-       	<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-    </head>
-    <body>
-    <!-- ======= Header ======= -->
+		<link href="assets/css/myParty.css" rel="stylesheet">
+	    
+	   
+	</head>
+	<body>
+	<!-- ======= Header ======= -->
 	<%@include file="include/header.jsp" %>
 	<!-- End Header -->
-	<style>
-	section {
-	margin: 150px 50px
-	}
-	/*전체 div  */
-	 .allmyPostContainer{
-	 	width: 1296px;
-	 	height: 900px;
-	 	margin: 50px 0 0 390px;
-	 }
-	 .feedUlCont{
-
-		 width: 1100px;
-		 height: 900px;
-		 padding:0 100px 0 80px;
-	 
-	 
-	 
-	 }
-	 /*피드형 박스*/
-	 .oneFeedv{
-	 margin: 70px 0 0 15px;
-	  display: flex;
-	 
-	   padding:10px 10px 10px 10px;
-	  width: 900px;
-	  border-radius:5px;
-	  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-	 
-	 
-	 }
-	 .postTextBoxv{
-	 	
-	 }
-	 /*제목 */
-	 .myPartyTitlev >h3{
-	   width:1000px;
-	   text-align:center;
-	 	font-size:42px;
-	 	color: #33333;
-	 	margin: 20px 0 50px 0;
-	 	
-	  
-	 }
-	 
-	.wantParty p{
-		 margin: 13px 0 3px 48px;
-		 color:red;
-		 font-weight: 700;
-		 font-size: 20px;
-		 
-	}
-	.wantParty2 strong {
-		 font-size: 25px;
-		 margin-left: 35px;
-	}
-	.wantParty2 p{
-		 font-size: 25px;
-		 margin-left: 35px;
-		 margin:0 0 0 45px;
-	}
-	.moim{
-		margin:0 0 0 120px;
-		
-		
-	}
-	.moimText{
-		margin-bottom:0;
-		margin-right:18px;
-		font-size:27px;	
-		font-weight: 400;
-	}
-	.moimImg{
-		margin-left: 30px;
-	}
 	
-	</style>
-	
-	 <section class="loginback" >
-	 <div class="allmyPostContainer">
-	 	<div class="myPostFeedContainer">
-	 			<div class="myPartyTitlev">
-	 				<h3>마이파티</h3>
-	 			</div>
-	 		
+		<section class="myParty">
+		 <div class="allmyPostContainer">
+	 	 <div class="myPostFeedContainer">
+			<div class="myPartyTitlev">
+				<h3>마이파티</h3>
+			</div>
+			<!-- 피드 전체 시작 -->
 	 		<ul class="feedUlCont">
+	 			<!-- 하나의 피드 시작 -->
 	 			<li class="oneFeedv">
+	 				<div class="imgContv">
 		 		      <a href=""><img src="../assets/img/mypage/firev.png"></a>
+	 				</div>
 		 			<div class="postTextBoxv">
 		 				<div class="wantParty">
 		 					<p>파티참여</p>
 		 				</div>
 		 				<div class="wantParty2">
-		 					<strong> 필요했던 밤 - 불멍캠프</strong>
-			 				<div class="moimText">
-			 					<p>3/4<p>
-			 				</div>
-			 				<div class="moimImg">
-			 					<img src="../assets/img/mypage/moim.png">
-			 				</div>
+		 					<div class="lineTitv">
+			 					<div class="partyTit">
+			 						<strong> 필요했던 밤 - 불멍캠프</strong>
+			 					</div>
+			 					<div class="recruitv">
+					 				<p>모집중</p>
+					 			</div>
+		 					</div>
+		 					<div class="moim" >
+				 				<div class="moimImg">
+				 					<img src="../assets/img/mypage/groupUser.png">
+				 				</div>
+				 				<div class="moimText">
+				 					<p>2/4<p>
+				 				</div>
+				 				<div class="moimPeriod">
+				 					<p>참여기간 : 24.01.02~01.03<p>
+				 				</div>
+		 					</div><!--모집중  -->
 			 			</div>
 		 			</div>
 	 			</li>
-	 		
+	 			<!-- 하나의 피드 끝 -->
+	 			<!-- 하나의 피드 시작 -->
+	 			<li class="oneFeedv">
+	 				<div class="imgContv">
+		 		      <a href=""><img src="../assets/img/mypage/valleyv.png"></a>
+	 				</div>
+		 			<div class="postTextBoxv">
+		 				<div class="wantParty">
+		 					<p>파티완료</p>
+		 				</div>
+		 				<div class="wantParty2">
+		 					<div class="lineTitv">
+			 					<div class="partyTit">
+			 						<strong>계곡주변 캠핑장</strong>
+			 					</div>
+			 					<div class="recruitv">
+					 				<p>모집중</p>
+					 			</div>
+		 					</div>
+		 					<div class="moim" >
+				 				<div class="moimImg">
+				 					<img src="../assets/img/mypage/groupUser.png">
+				 				</div>
+				 				<div class="moimText">
+				 					<p>3/4<p>
+				 				</div>
+				 				<div class="moimPeriod">
+				 					<p>참여기간 : 23.08.25~08.26<p>
+				 				</div>
+		 					</div><!--모집중  -->
+			 			</div>
+		 			</div>
+	 			</li>
+	 			<!-- 하나의 피드 끝 -->
+	 			<!-- 하나의 피드 시작 -->
+	 			<li class="oneFeedv">
+	 				<div class="imgContv">
+		 		      <a href=""><img src="../assets/img/mypage/bbq.png"></a>
+	 				</div>
+		 			<div class="postTextBoxv">
+		 				<div class="wantParty">
+		 					<p>파티완료</p>
+		 				</div>
+		 				<div class="wantParty2">
+		 					<div class="lineTitv">
+			 					<div class="partyTit">
+			 						<strong>황금주말 바베큐파티</strong>
+			 					</div>
+			 					<div class="recruitv">
+					 				<p>모집완료</p>
+					 			</div>
+		 					</div>
+		 					<div class="moim" >
+				 				<div class="moimImg">
+				 					<img src="../assets/img/mypage/groupUser.png">
+				 				</div>
+				 				<div class="moimText">
+				 					<p>4/4</p>
+				 				</div>
+				 				<div class="moimPeriod">
+				 					<p>참여기간 : 23.04.02~04.03<p>
+				 				</div>
+		 					</div><!--모집중  -->
+			 			</div>
+		 			</div>
+	 			</li>
+	 			<!-- 하나의 피드 끝 -->
 	 			
 	 		</ul>
+	 		<!-- 피드 전체 끝 -->
 	 	</div>
-	 
 	 </div>
 	 
-	 
-	 
-	 
-      
- 	</section>
-    </body>
-  <!-- ======= Footer ======= -->
-  <%@include file="include/footer.jsp" %>
-  <!-- End Footer -->
+	   	<!-- 하단넘버링 시작 -->
+	   	 <ul class="page-num">
+		      <li class="first"></li>
+		      <li class="prev"></li>
+		      <li class="num">1</li>
+		      <li class="num">2</li>
+		      <li class="num">3</li>
+		      <li class="num">4</li>
+		      <li class="num">5</li>
+		      <li class="num">6</li>
+		      <li class="num">7</li>
+		      <li class="num">8</li>
+		      <li class="num">9</li>
+		      <li class="num">10</li>
+		      <li class="next"></li>
+		      <li class="last"></li>
+			 </ul>
+				 <!-- 하단넘버링 끝 -->	 
+	
+		</section>
+        
+		
+		<!-- ======= Footer ======= -->
+	  	<%@include file="include/footer.jsp" %>
+	 	<!-- End Footer -->
+	</body>
 </html>

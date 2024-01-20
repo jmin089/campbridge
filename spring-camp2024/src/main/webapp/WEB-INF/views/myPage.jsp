@@ -27,7 +27,7 @@
 	    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 	    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 	    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-	    <link href="assets/css/myPage.css" rel="stylesheet" type="text/css">
+	    <link href="assets/css/myPage.css" rel="stylesheet">
 	
 	    <!-- Template Main CSS File -->
 	    <link href="assets/css/main2.css" rel="stylesheet">
@@ -53,12 +53,17 @@
 						<p>스폰지밥 님</p>
 					</div>
 					<div class="setPF">
-						<a href="/" class="icon-link"><img src="../assets/img/login/mySetting.png" alt="나의 게시물" style="margin: 7px 0 0 0"></a>
+						<a href="/" class="icon-link-sawtooth"><img src="../assets/img/login/mySetting.png" alt="나의 게시물"></a>
 					</div>
 		     	</div>
 		    </div><!--proF -->
 			 <div class="orderD">
-			 	<h3>주문/배송 조회</h3>
+			 	<div class="orderDHigh_top">
+				 	<h3>주문/배송 조회</h3>
+				 	<div class="myCartMF">
+				 		<a href="/"><img src="../assets/img/mypage/mycart.png" alt="장바구니"><br><p>장바구니</p></a>
+				 	</div>
+			 	</div>
 			 	<ul class="orderGrayBox">
 			 		<li>
 			 			<em>0</em>

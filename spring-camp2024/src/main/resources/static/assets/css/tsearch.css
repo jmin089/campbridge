@@ -10,7 +10,7 @@ section {margin:150px 50px; text-align: center;}
 .t_check h1{font-weight: 700; margin:40px 0 60px 0;}
 .t_check ul{margin:20px 20px;}
 .t_check ul li{float: left; padding-right:15px; list-style-type: none; font-size: 18px;}
-.thema {width:1050px; height:140px; font-family: Arial, sans-serif; margin-left:400px; border: 2px solid #009223;  border-radius: 5px;}
+.thema {width:1050px; height:140px; font-family: Arial, sans-serif; margin-left: 390px; border: 2px solid #009223;  border-radius: 5px;}
 .thema li {margin: 10px 10px;}
 .thema input[type="checkbox"] {margin-right: 5px;}
 .thema label {cursor: pointer;}

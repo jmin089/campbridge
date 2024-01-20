@@ -86,7 +86,7 @@
 		        <td colspan="6" class="article">게시글 내용이 들어갑니다.<br><br><br><br><br></td>
 		      </tr>
 		      <tr style="border-bottom: 2px solid #009223;">
-		        <td class="article"><strong></strong>
+		        <td class="article"><strong>첨부파일</strong>
 		        </td>
 		        <td colspan="5">※첨부파일 없음</td>
 		      </tr>

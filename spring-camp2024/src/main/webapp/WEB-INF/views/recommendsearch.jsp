@@ -38,7 +38,7 @@
 		<section class="notice_search_cardstyle">
 			<!-- 캠핑장 검색 -->
 				<img src="/assets/img/recommend_icon.png">
-		    	<h1>추천 검색</h1>
+		    	<h1>campbridge 추천</h1>
 		   <!-- 카드형 리스트 -->
 		    <div class="list_wrap">
             <ul>

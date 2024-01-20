@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-section {
+	section {
 	margin: 150px 50px
 }
 /* allCont 시작 */
@@ -50,6 +50,7 @@ section {
 .userPF p { /*USER님  */
 	font-size: 20px;
 	width: 200px;
+	margin-left: -40px;
 }
 
 .orderD {
@@ -57,11 +58,24 @@ section {
 	width: 780px;
 	height: 200px;
 }
+.orderDHigh_top{
+	display: flex;
+}
+.orderDHigh_top p{
+	color:#333333;
+}
+.orderDHigh_top p:hover{
+	color:#9EC8B9;
+}
 
-.orderD>h3 {
+.orderDHigh_top>h3 {
 	color: #333333;
-	font-size: 23px;
+	font-size: 25px;
 	margin: 18px 0 0 54px;
+	width: 200px;
+	margin-right: 430px;
+    margin-left: 20px;
+	
 }
 
 .orderGrayBox {
@@ -103,7 +117,15 @@ section {
 	text-align: center;
 	vertical-align: top;
 }
-
+.myCartMF{
+	width: 57px;
+	height: 53px;
+}
+.myCartMF p{
+	font-size: 12px;
+	width:50px;
+	margin:0 0 0 6px;
+}
 /* allCont2 시작 */
 aside {
 	margin-top: 20px;
@@ -115,6 +137,10 @@ aside {
 	height: 140px;
 	display: block;
 	text-decoration: none;
+}
+
+.icon-link-sawtooth img {
+	margin: 61px 0 0px 0;
 }
 
 .icon-link {
@@ -155,11 +181,12 @@ aside {
 .contMP p {
 	margin-top: 3px;
 	font-size: 17px;
+	text-align: left;
 }
 
 .contMP strong {
 	margin-left: 6px;
-	color: #5C8374;
+	color: #009223;
 	font-size: 21px;
 }
 
@@ -168,6 +195,7 @@ aside {
 	margin-left: 410px;
 	height: 250px;
 	display: flex;
+	font-weight: 700;
 }
 
 .allCont2 {
