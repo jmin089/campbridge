@@ -28,7 +28,6 @@
 	    <!-- Template Main CSS File -->
 	    <link href="assets/css/main2.css" rel="stylesheet">
 	    <link href="assets/css/header.css" rel="stylesheet">
-		<link href="assets/css/listStyle.css" rel="stylesheet">
 		<link href="assets/css/rentcart.css" rel="stylesheet">
 	    
 	    
@@ -43,7 +42,7 @@
 					
 					<div class="amount3">
 						<p>캠브릿지님 주문이 완료되었습니다.<br>주문 감사합니다.</p><br><br>
-						<img alt="안내사항" src="../assets/img/payment.png">
+						<img alt="안내사항" src="../assets/img/rent/payment.png">
 					</div>
 					
 		 	 <a href="/"><button>메인으로</button></a>

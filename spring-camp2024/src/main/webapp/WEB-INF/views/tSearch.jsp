@@ -28,11 +28,7 @@
 	    <!-- Template Main CSS File -->
 	    <link href="assets/css/main2.css" rel="stylesheet">
 	    <link href="assets/css/header.css" rel="stylesheet">
-		<link href="assets/css/listStyle.css" rel="stylesheet">
-		<link href="assets/css/rentcart.css" rel="stylesheet">
 		<link href="assets/css/tsearch.css" rel="stylesheet">
-		<link href="assets/css/campsearch.css" rel="stylesheet">
-	    
 	    
 	</head>
 	<body>
@@ -43,7 +39,7 @@
 			
 			<!-- 체크박스 -->
 		  <div class="t_check">
-		  		<img src="../assets/img/thema_icon.png">
+		  		<img src="../assets/img/tsearch/thema_icon.png">
 		 		<h1>테마별로 떠나는 캠프</h2>
 		  		<div class="thema">
 				 <ul>

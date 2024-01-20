@@ -1,6 +1,7 @@
 package com.java.www.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
@@ -18,11 +19,53 @@ public class FController {
 		return "login";
 	}// login()
 	
+	//id 찾기
+	@GetMapping("idpw_search")
+	public String idpw_search() {
+		return "idpw_search";
+	}// login()
+	
+	//id 찾기완료
+	@GetMapping("idsearch")
+	public String idsearch() {
+		return "idsearch";
+	}// login()
+	
+	//pw 찾기완료
+	@GetMapping("pwsearch")
+	public String pwsearch() {
+		return "pwsearch";
+	}// login()
+	
 	//2.회원가입 페이지
 	@GetMapping("signUp")
 	public String signUp() {
 		return "signUp";
 	}// signUp()
+	
+	//2.회원가입 완료
+	@GetMapping("signUp02")
+	public String signUp02() {
+		return "signUp02";
+	}// signUp02()
+	
+	//마이 페이지
+	@GetMapping("myPage")
+	public String myPage() {
+		return "myPage";
+	}// myPage()
+	
+	//마이 페이지-나의게시물
+	@GetMapping("myList")
+	public String myList() {
+		return "myList";
+	}// myList()
+	
+	//마이 페이지-파티원
+	@GetMapping("myParty")
+	public String myParty() {
+		return "myParty";
+	}// myParty()
 	
 	//3.공지사항 리스트
 	@GetMapping("nList")
@@ -78,11 +121,46 @@ public class FController {
 		return "adminPage";
 	}// adminPage()
 	
+	//사이트소개
+	@GetMapping("aboutCB")
+	public String aboutCB() {
+		return "aboutCB";
+	}// adminPage()
+	
 	//campbridge 소개
 	@GetMapping("developers")
 	public String developers() {
 		return "developers";
 	}// developers()
+	
+	@GetMapping("pages_faq")
+	public String pages_faq() {
+		return "pages_faq";
+	}// pages_faq()
+	
+	//관리자-입점 캠핑장 페이지
+	@GetMapping("pages_campsite")
+	public String pages_campsite() {
+		return "pages_campsite";
+	}// pages_campsite()
+	
+	//관리자-진행중 이벤트 페이지
+	@GetMapping("pages_events")
+	public String pages_events() {
+		return "pages_events";
+	}// pages_events()
+	
+	//관리자-에러404 페이지
+	@GetMapping("pages_error404")
+	public String pages_error404() {
+		return "pages_error404";
+	}// pages_error404()
+	
+	//
+	@GetMapping("pages_users")
+	public String pages_users() {
+		return "pages_users";
+	}// pages_error404()
 
 	//테마검색
 	@GetMapping("tSearch")
@@ -138,22 +216,28 @@ public class FController {
 		return "cp_Cart03";
 	}// cp_Cart03()
 	
-	//장바구니 3
+	//중고거래 및 양도
 	@GetMapping("used")
 	public String used() {
 		return "used";
 	}// used()
 	
-	//장바구니 3
+	//중고거래 및 양도 - 뷰
 	@GetMapping("usedcontent")
 	public String usedcontent() {
 		return "usedcontent";
 	}// usedcontent()
 	
-	//장바구니 3
+	//캠핑리뷰
 	@GetMapping("review")
 	public String review() {
 		return "review";
-	}// cp_Cart03()
+	}// review()
+	
+	//캠핑리뷰 - 뷰
+	@GetMapping("reviewcontent")
+	public String reviewcontent() {
+		return "reviewcontent";
+	}//reviewcontent()
 	
 }// FController

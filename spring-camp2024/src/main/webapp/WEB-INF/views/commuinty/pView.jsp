@@ -58,35 +58,35 @@
 		    
 		      <tr>
 		        <th style="text-align: center;">
-		        	<strong>1007&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp |</strong>
+		        	<strong>1007</strong>
 		        </th>
 		        <th colspan="3" style="text-align: left;"><span>게시글 제목이 들어갑니다.</span></th>
 		        
 		        <th style="text-align: right;">
-		        	<strong>모집상태&nbsp&nbsp&nbsp&nbsp |</strong>
+		        	<strong>모집상태</strong>
 		        </th>
 		        <th>파티원 모집중</th>
 		      </tr>
 		      
 		      <tr style="border-bottom: 2px solid #009223">
 		        <td style="text-align: center;">
-		        	<strong>작성자&nbsp&nbsp&nbsp&nbsp | </strong style="text-align: center;">
+		        	<strong>작성자</strong style="text-align: center;">
 		        </td>
 		        <td>관리자</td>
 		        <td style="text-align: right;">
-		        	<strong>캠핑유형&nbsp&nbsp&nbsp&nbsp | </strong>
+		        	<strong>캠핑유형</strong>
 		        </td>
 		        <td>오토캠핑</td>
 		        <td style="text-align: right;">
-		        	<strong>파티원&nbsp&nbsp&nbsp&nbsp | </strong>
+		        	<strong>파티원</strong>
 		        </td>
 		        <td>3 &nbsp명</td>
 		      </tr>
 		      <tr>
-		        <td colspan="6" class="article">게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.</td>
+		        <td colspan="6" class="article">게시글 내용이 들어갑니다.<br><br><br><br><br></td>
 		      </tr>
 		      <tr style="border-bottom: 2px solid #009223;">
-		        <td class="article"><strong>첨부파일&nbsp&nbsp&nbsp&nbsp | </strong>
+		        <td class="article"><strong></strong>
 		        </td>
 		        <td colspan="5">※첨부파일 없음</td>
 		      </tr>
@@ -100,13 +100,11 @@
 		    		</div>
 			    	<div class="participant_in">
 			    	<tr>
-			    		<td><strong>아이디</strong>
-			    			<td>aaa</td>
-			    		</td>
+			    		<td><strong>아이디</strong></td>
+			    		<td>aaa</td>
 			    		</br>
-			    		<td><strong>닉네임</strong>
-			    			<td>항공5기</td>
-			    		</td>
+			    		<td><strong>닉네임</strong></td>
+			    		<td>항공5기</td>
 			    	</tr>
 		    		</div>
 		    	</div>
@@ -116,13 +114,11 @@
 		    		</div>
 			    	<div class="participant_in">
 			    	<tr>
-			    		<td><strong>아이디</strong>
-			    			<td>aaa</td>
-			    		</td>
+			    		<td><strong style="color: red;">파티원</strong></td>
+			    		<td><strong style="color: red;">모집중</strong></td>
 			    		</br>
-			    		<td><strong>닉네임</strong>
-			    			<td>항공5기</td>
-			    		</td>
+			    		<td><strong style="color: red;">파티에</strong></td>
+			    		<td><strong style="color: red;">참여하기</strong></td>
 			    	</tr>
 		    		</div>
 		    	</div>
@@ -132,13 +128,11 @@
 		    		</div>
 			    	<div class="participant_in">
 			    	<tr>
-			    		<td><strong>아이디</strong>
-			    			<td>aaa</td>
-			    		</td>
+			    		<td><strong style="color: red;">파티원</strong></td>
+			    		<td><strong style="color: red;">모집중</strong></td>
 			    		</br>
-			    		<td><strong>닉네임</strong>
-			    			<td>항공5기</td>
-			    		</td>
+			    		<td><strong style="color: red;">파티에</strong></td>
+			    		<td><strong style="color: red;">참여하기</strong></td>
 			    	</tr>
 		    		</div>
 		    	</div>
@@ -148,13 +142,11 @@
 		    		</div>
 			    	<div class="participant_in">
 			    	<tr>
-			    		<td><strong>아이디</strong>
-			    			<td>aaa</td>
-			    		</td>
+			    		<td><strong style="color: red;">파티원</strong></td>
+			    		<td><strong style="color: red;">모집중</strong></td>
 			    		</br>
-			    		<td><strong>닉네임</strong>
-			    			<td>항공5기</td>
-			    		</td>
+			    		<td><strong style="color: red;">파티에</strong></td>
+			    		<td><strong style="color: red;">참여하기</strong></td>
 			    	</tr>
 		    		</div>
 		    	</div>
@@ -167,8 +159,15 @@
 		    	<a href="pList"><button class="list">목록</button></a>
 		    </div>
 		    
-		    <!-- 댓글입력-->
-			 <table>
+		    <!-- 비밀댓글입력-->
+		    <table id="replyPw">
+			    <tr>
+				    <td id="replyBorder">
+					 	<strong>댓글 비밀번호&nbsp;&nbsp;</strong><input type="password" name="replyPw" id="replyIPw" placeholder=" ※ 입력시 비밀글로 저장">
+				    </td>
+			    </tr>
+		    </table>
+			 <table style="position: relative; bottom: 200px;">
 			  <tr>
 			  	<td style="display: flex; border: 1px solid white; margin: -80px 0 0 -20px;">
 				  	<textarea placeholder=" ※ 댓글을 입력하세요. (타인을 향한 욕설 및 비방은 무통보 삭제됩니다.)" style="width: 1200px; "></textarea>
@@ -178,6 +177,7 @@
 		   	</table>
 		  
 		    <!-- 댓글보기-->
+		    <div class="reply_body">
 		    <table style="margin-top: 30px;">
 		      <td style="font-weight: 700">총<strong style="color: #009223">&nbsp;&nbsp;5</strong>&nbsp;개의 댓글이 등록되었습니다.</td>
 			  <tr>
@@ -227,6 +227,7 @@
 			  </tr>
 			  
 		    </table>
+		    </div>
 		    <!-- 댓글보기 끝-->
 		    
  		 </section>

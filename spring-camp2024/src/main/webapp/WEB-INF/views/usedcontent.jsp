@@ -33,28 +33,29 @@
 <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
 <!-- Template Main CSS File -->
-<link href="assets/css/main.css" rel="stylesheet">
 <link href="assets/css/main2.css" rel="stylesheet">
-<link href="assets/css/listStyle.css" rel="stylesheet">
 <link href="assets/css/usedcontent.css" rel="stylesheet" type="text/css">
-<link href="assets/css/header.css" rel="stylesheet" type="text/css">
+<link href="assets/css/header2.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<!-- ======= Header ======= -->
 	<%@include file="include/header.jsp"%>
 	<!-- End Header -->
-
-	<!--<div id="contentWrap"> -->
-
+	<section class="headerCss">
+	<div id="contentWrap">
 			<link type="text/css" rel="stylesheet"
 				href="/template_common/shop/basic_simple/menu.1.css?t=201711221039" />
-			<div id="content">
-				<div id="bbsData">
+				<div id="content">
+					<div id="bbsData">
 					<div class="page-body">
+						<!-- <div class="camp-img-div">
+							<img src="assets/img/campUsed/free-icon-camp-9056684.png" alt="중고거래이미지" width="150" height="150">
+							<h1 style="text-align: center;">캠핑중고거래</h1>
+						</div> -->
 						<!-- 게시판 리스트 -->
 						<div class="bbs-hd">
 							<ul class="link">
-								<li>
+							<!-- 	<li>
 								<a href="#">중고거래</a>
 								</li>
 								&nbsp
@@ -63,29 +64,35 @@
 								&nbsp
 								<li>
 								<a href="#">캠핑장양도</a>
-								</li>
+								</li> -->
 							</ul>
+							<h1 style="text-align: center;">중고거래</h1>
 						</div>
+						<br>
+						<br> 
 						<!-- .bbs-hd -->
 						<!-- //게시판 리스트 -->
+						<br>
+						<br>
 						<div class="bbs-tit">
-							<h3>팝니다</h3>
+							<h3>중고거래</h3>
 						</div>
 						<dl class="prd-tinfo">
 							<dt>
 								<a
-									href="/shop/shopdetail.html?branduid=994133&search=&xcode=024&mcode=004&scode=021&GfDT=bmh3UQ%3D%3D"><img
-									src="assets/img/used1.jpg" /></a>
+									href="#"><img
+									src="assets/img/campUsed/campUsed1.jpg" /></a>
 							</dt>
 							<dd>
 								<ul>
 									<li class="name"><span class="tit">상품명 :</span> <a
-										href="assets/img/used1.jpg">
+										href="assets/img/campUsed/campUsed1.jpg">
 										몬테라 테이블 팔아요</a></li>
 									<li class="price"><span class="tit">판매가 :</span> 100,000원</li>
 								</ul>
 							</dd>
 						</dl>
+						<br>
 						<div class="bbs-table-view">
 							<table summary="게시글 보기">
 								<caption>게시글 보기</caption>
@@ -113,7 +120,7 @@
 											<div class="data-bd-cont">
 												<div id=MS_WritenBySEB>얼른 구매하세용~</div>
 												<br>
-												<img src="assets/img/used1.jpg" style="width:300px; height:300px;">
+												<img src="assets/img/campUsed/campUsed1.jpg" style="width:400px; height:400px;">
 											</div>
 										</td>
 									</tr>
@@ -174,24 +181,7 @@
 									</table>
 								</fieldset>
 							</form>
-							<!-- 하단 버튼 -->
-							<div class="view-link">
-								<dl class="bbs-link con-link">
-									<dt></dt>
-									<dd>
-										<a
-											href="/board/board.html?code=ocamall_board13&page=1&board_cate=&num1=998627&num2=00000&type=q&type2=u"
-											class="CSSbuttonWhite">수정</a> <a
-											href="/board/board.html?code=ocamall_board13&page=1&board_cate=&num1=998627&num2=00000&type=q&type2=d"
-											class="CSSbuttonWhite">삭제</a> <a
-											href="/board/board.html?code=ocamall_board13&page=1&board_cate=&s_id=&stext=&ssubject=&shname=&scontent=&sbrand=&sgid=&datekey=&branduid="
-											class="CSSbuttonWhite">목록</a> <a class="CSSbuttonBlack"
-											href="/board/board.html?code=ocamall_board13&page=1&board_cate=&type=i">글쓰기</a>
-									</dd>
-								</dl>
-
-							</div>
-							<!-- //하단 버튼 -->
+							
 
 							<!-- 이전글 다음글 -->
 							<div class="bbs-table-list">
@@ -243,6 +233,22 @@
 									</tbody>
 								</table>
 							</div>
+							<br>
+							<!-- 하단 버튼 -->
+							 <div class="view-link">
+								<dl class="bbs-link con-link">
+									<dt></dt>
+									<dd>
+										<a href="#" class="CSSbutton">수정</a> 
+										<a href="#" class="CSSbutton">삭제</a> 
+										<a href="#" class="CSSbutton">목록</a> 
+										<a class="CSSbuttonBlack" href="#">글쓰기</a>
+									</dd>
+								</dl>
+
+							</div>
+							<!-- //하단 버튼 -->
+							
 						</div>
 					</div>
 					<!-- .page-body -->
@@ -254,23 +260,26 @@
 		<!-- #contentWrap -->
 	</div>
 	<!-- #contentWrapper-->
-			<div>
-			<ul class="page-num" id="page-num-us">
-				<li class="first"></li>
-				<li class="prev"></li>
-				<li class="num">1</li>
-				<li class="num">2</li>
-				<li class="num">3</li>
-				<li class="num">4</li>
-				<li class="num">5</li>
-				<li class="next"></li>
-				<li class="last"></li>
-			</ul>
-			</div>
-
-
-
-
+	</section>
+						<!-- 하단 넘버링  -->
+						<div>
+							  <ul class="page-num-used">
+							      <li class="first-num"></li>
+							      <li class="prev-num"></li>
+							      <li class="num-used">1</li>
+							      <li class="num-used">2</li>
+							      <li class="num-used">3</li>
+							      <li class="num-used">4</li>
+							      <li class="num-used">5</li>
+							      <li class="num-used">6</li>
+							      <li class="num-used">7</li>
+							      <li class="num-used">8</li>
+							      <li class="num-used">9</li>
+							      <li class="num-used">10</li>
+							      <li class="next-num"></li>
+							      <li class="last-num"></li>
+				   			  </ul>
+						</div>
 	<!-- footer하단 -->
 
 	<div class="quickBtnWrap">

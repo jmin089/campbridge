@@ -31,7 +31,7 @@
 	        <ul>
 	          <li class="dropdown"><a href="#">CampBridge 소개<i class="bi bi-chevron-down dropdown-indicator"></i></a>
 		          <ul>
-		              <li><a href="#">사이트 소개</a></li>
+		              <li><a href="/aboutCB">사이트 소개</a></li>
 		              <li><a href="/developers">campbridge 소개</a></li>
 		              <li><a href="/adminPage">관리자</a></li>
 		          </ul>
@@ -40,7 +40,7 @@
 	          	<ul>
 		            <li><a href="/campsearch">캠핑장 검색</a></li>
 		            <li><a href="/mapsearch">지도 검색</a></li>
-		            <li><a href="/recommendsearch">추천 검색</a></li>
+		            <li><a href="/recommendsearch">campbridge 추천</a></li>
 		        </ul>
 	          </li>
 	          <li><a href="/tSearch">테마검색</a></li>
@@ -55,7 +55,7 @@
 	          <li class="dropdown"><a href="#">리뷰</a>
 		          <ul>
 		              <li><a href="/review">캠핑장 리뷰</a></li>
-		              <li><a href="/usedcontent">캠핑용품 리뷰</i></a></li>
+		              <li><a href="/reviewcontent">캠핑용품 리뷰</i></a></li>
 		          </ul>
 	          </li>
 	          <li><a href="#contact">픽업장소</a></li>

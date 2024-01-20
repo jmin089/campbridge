@@ -33,6 +33,7 @@ table {
 
 .searchTitle, .searchWord, .searchBtn {
 	height: 50px;
+	border: 2px solid #009223;
 }
 
 #searchTitle {
@@ -121,6 +122,7 @@ th, td {
 	height: 35px;
 	padding: 0;
 	cursor: pointer;
+	border-radius: 5px;
 }
 
 .num {
@@ -144,11 +146,11 @@ th, td {
 }
 
 .first {
-	background: url(../img/list/paging_first.png) no-repeat;
+	background: url(../img/list/btn_pre00.png) no-repeat;
 }
 
 .prev {
-	background: url(../img/list/paging_prev.png) no-repeat;
+	background: url(../img/list/btn_pre01.png) no-repeat;
 }
 
 .num {
@@ -169,11 +171,11 @@ th, td {
 }
 
 .next {
-	background: url(../img/list/paging_next.png) no-repeat;
+	background: url(../img/list/btn_next01.png) no-repeat;
 }
 
 .last {
-	background: url(../img/list/paging_last.png) no-repeat;
+	background: url(../img/list/btn_next00.png) no-repeat;
 }
 
 .write {

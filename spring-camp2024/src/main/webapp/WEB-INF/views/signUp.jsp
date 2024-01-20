@@ -40,7 +40,7 @@
 	<%@include file="include/header.jsp" %>
 	<!-- End Header -->
 		<section>
-			<form name="agree" method="get" action="join03_success.html">
+			<form name="agree" method="get" action="/signUp02">
 				<div id="subBanner"></div>
 				<div id="sub_top_area">
 					<h3>회원가입</h3>

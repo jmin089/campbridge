@@ -59,13 +59,19 @@ public class CController {
 	//3.파티원 모집 게시판Pg
 	@GetMapping("pList")
 	public String partyList() {
-		return "commuinty/pList";
+		return "/commuinty/pList";
 	}// pList()
 
 	//3.파티원 모집 게시글보기 Pg
 	@GetMapping("pView")
 	public String pView() {
-		return "commuinty/pView";
+		return "/commuinty/pView";
+	}// pView()
+	
+	//3.파티원 모집 작성Pg
+	@GetMapping("pWrite")
+	public String pWrite() {
+		return "/commuinty/pWrite";
 	}// pView()
 
 }// CController

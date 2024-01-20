@@ -1,8 +1,8 @@
 /* 캠핑장 검색 */
-section{margin: 150px 50px;}
+section{margin: 150px 50px; text-align: center;}
 *{margin: 0; padding: 0;}
 ul, li{list-style: none;}
-h1{float: center; font-weight: 700; margin: 50px 0 80px 790px;}
+h1{font-weight: 700; margin:40px 0 60px 0;}
 a{text-decoration: none;}
 .notice_search a{color: black;}
 
@@ -18,7 +18,6 @@ a{text-decoration: none;}
     .list_wrap .item4 .image{background-image: url(1.jpg); border-radius: 10px;}
     .list_wrap .item5 .image{background-image: url(1.jpg); border-radius: 10px;}
     .list_wrap .item6 .image{background-image: url(1.jpg); border-radius: 10px;}
-    .list_wrap .item7 .image{background-image: url(1.jpg); border-radius: 10px;}
     .list_wrap .item8 .image{background-image: url(1.jpg); border-radius: 10px;}
     .list_wrap .item9 .image{background-image: url(1.jpg); border-radius: 10px;}
     .list_wrap .item10 .image{background-image: url(1.jpg); border-radius: 10px;}
@@ -37,7 +36,7 @@ a{text-decoration: none;}
 strong{width: 70px; text-align: center; margin-left: 15px;}
 
 /* 검색, 초기화 버튼 */
-.detail_btn_w{margin: 10px 0 0 775px;}
+.detail_btn_w{margin: 10px 0 0 0;}
 .b_lightgray, .b_blue{margin-top: 20px; margin-left: 15px; width: 100px; height: 40px; background: #ffce32; font-weight: 700; border: none; border-radius: 10px;}
 .b_lightgray:hover, .b_blue:hover{background: #009223; color: #fff; font-weight: 700;}
 
@@ -77,7 +76,7 @@ input[id="tab04"]:checked ~ .con4{display: block;}
 th{border: none;}
 .notice_search th{border-bottom: 2px solid black; border-top: 2px solid black;}
 .camp_item_g{margin-top: 20px;}
-.icon_h3 {position: relative; font-size: 20px; color: #000; padding-left: 29px; line-height: 27px; margin: 40px 0 13px 0; letter-spacing: -0.08em; word-break: break-all; margin-left: 350px;}
+.icon_h3 {position: relative; font-size: 20px; color: #000; padding-left: 29px; line-height: 27px; margin: 30px 0 13px -970px; letter-spacing: -0.08em; word-break: break-all;}
 #table_type03{width: 1030px; margin: -60px 0 0 400px;}
 .table_ul05{list-style-type: none; display: flex; /* Flexbox를 사용하여 가로 정렬 */padding: 0;}
 .table_ul05 li{margin-top: -7px; height:15px;; margin-left: 30px; /* 각 리스트 아이템 간의 간격 설정 */}
@@ -89,14 +88,14 @@ th{border: none;}
 
 /*하단넘버링*/
 .bottom_number{margin-top: -20px; display: flex; justify-content: center;}
-.bottom_number li{list-style: none; width: 30px; height: 30px; padding: 0; cursor: pointer; border-radius: 20px;}
+.bottom_number li{list-style: none; width: 30px; height: 30px; padding: 0; cursor: pointer; border-radius: 5px;}
 .number{width: 30px; height: 30px; padding: 0; list-style: none; font-weight: 700;}
 .number:hover{width: 30px; height: 30px; padding: 0; list-style: none; background: #009223; border: 1px solid #009223; color: #ffce32; transition: all 0.4s; font-weight: 700;}
-.first{background: url(../img/campsearch/btn_pre00.png) no-repeat;}
-.prev{background: url(../img/campsearch/btn_pre01.png) no-repeat;}
+.first{background: url(../img/list/btn_pre00.png) no-repeat;}
+.prev{background: url(../img/list/btn_pre01.png) no-repeat;}
 .number{display: flex; position: relative; top: 1px; height: 33px !important; margin-left: 5px; margin-right: 5px; border: 1px #989898 solid; align-items: center; justify-content: center;}
 .number>div{position: relative; top: 2px;}
-.next{background: url(../img/campsearch/btn_next01.png) no-repeat;}
-.last{background: url(../img/campsearch/btn_next00.png) no-repeat;}
+.next{background: url(../img/list/btn_next01.png) no-repeat;}
+.last{background: url(../img/list/btn_next00.png) no-repeat;}
 
 

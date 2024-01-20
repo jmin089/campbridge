@@ -139,7 +139,7 @@
 			      </tr>
 		  		</div>
 		    </table>
-			 	<button class="write">글쓰기</button>
+			 	<a href="pWrite"><button class="write">글쓰기</button></a>
   			 	<button class="write" onclick="location.href='/'">메인홈</button>
 	    	
 		     <ul class="page-num">

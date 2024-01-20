@@ -50,26 +50,25 @@
 		        <col width="15%">
 		        <col width="12%">
    			</colgroup>
-		    
-		      <tr>
-		        <th style="text-align: center;"><strong>1007&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp |</strong></th>
+		    <tr>
+		        <th style="text-align: center;"><strong>1007</strong></th>
 		        <th style="text-align: left;"><span>게시글 제목이 들어갑니다.</span></th>
-		        <th style="text-align: right;"><strong>작성일&nbsp&nbsp&nbsp&nbsp |</strong></th>
+		        <th style="text-align: right;"><strong>작성일</strong></th>
 		        <th>2019-12-11</th>
 		      </tr>
 		      <tr style="border-bottom: 2px solid #009223">
-		        <td style="text-align: center;"><strong>작성자&nbsp&nbsp&nbsp&nbsp | </strong style="text-align: center;"></td>
+		        <td style="text-align: center;"><strong>작성자</strong style="text-align: center;"></td>
 		        <td>관리자</td>
-		        <td style="text-align: right;"><strong>조회수&nbsp&nbsp&nbsp&nbsp | </strong></td>
+		        <td style="text-align: right;"><strong>조회수</strong></td>
 		        <td>123</td>
 		      </tr>
 		      <tr>
-		        <td colspan="4" class="article">게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.</td>
+		        <td colspan="4" class="article">게시글 내용이 들어갑니다.<br><br><br><br><br></td>
 		      </tr>
 		       <tr style="border-bottom: 2px solid #009223;">
-		        <td class="article"><strong>첨부파일&nbsp&nbsp&nbsp&nbsp | </strong>
+		        <td class="article" style="text-align: center;"><strong>첨부파일 </strong>
 		        </td>
-		        <td colspan="5">※첨부파일 없음</td>
+		        <td colspan="3">※첨부파일 없음</td>
 		      </tr>
 		    </table>
 		    
@@ -80,8 +79,15 @@
 		    	<a href="tList"><button class="list">목록</button></a>
 		    </div>
 		    
-		   	<!-- 댓글입력-->
-			 <table>
+		    <!-- 댓글입력-->
+		    <table id="replyPw">
+			    <tr>
+				    <td id="replyBorder">
+					 	<strong>댓글 비밀번호&nbsp;&nbsp;</strong><input type="password" name="replyPw" id="replyIPw" placeholder=" ※ 입력시 비밀글로 저장">
+				    </td>
+			    </tr>
+		    </table>
+			 <table style="position: relative; bottom: 200px;">
 			  <tr>
 			  	<td style="display: flex; border: 1px solid white; margin: -80px 0 0 -20px;">
 				  	<textarea placeholder=" ※ 댓글을 입력하세요. (타인을 향한 욕설 및 비방은 무통보 삭제됩니다.)" style="width: 1200px; "></textarea>
@@ -89,9 +95,8 @@
 			  	</td>
 			  </tr>
 		   	</table>
-		   
 		    <!-- 이전글/다음글-->
-		    <table style="margin-top: 30px; margin-bottom: 30px;">
+		    <table style="margin-top: -150px; ">
 		      <tr>
 		        <td colspan="4"><strong>다음글</strong> <span class="separator">|</span><a href="#"> [키즈잼] 2월 프로그램 안내</a></td>
 		      </tr>
@@ -102,11 +107,11 @@
 		    <!-- 이전글/다음글 끝-->
 		    
 		    <!-- 댓글보기-->
-		    <table style="margin-top: 30px;">
+		    <table style="margin-top: 70px;">
 		      <td style="font-weight: 700">총<strong style="color: #009223">&nbsp;&nbsp;5</strong>&nbsp;개의 댓글이 등록되었습니다.</td>
 			  <tr>
 				<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12 15:27:23:00]</span>
-				<li id="replyTxt">&nbsp;&nbsp;댓글내용일 들어갑니다. <br>ex)이벤트 너무 좋아요! 꼭 참여해서 혜택받아볼게요!</li>
+				<li id="replyTxt">&nbsp;&nbsp;댓글내1용일 들어갑니다. <br>ex)이벤트 너무 좋아요! 꼭 참여해서 혜택받아볼게요!</li>
 				<li id="replyBtn">
 					<button id="rDelBtn">삭제</button>
 					<button id="rUBtn">수정</button>
@@ -149,7 +154,7 @@
 				</li>
 				</td>			
 			  </tr>
-			 
+			  
 		    </table>
 		    <!-- 댓글보기 끝-->
 		    
