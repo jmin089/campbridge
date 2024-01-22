@@ -132,8 +132,6 @@
 						</dt>
 						<dd>
 							<input type="text" id="f_postal" name="f_postal" required />
-							<span>-</span>
-							<input type="text" id="l_postal" name="l_postal" required />
 							<input type="button" value="우편번호"/>
 							<input type="text" id="address1" name="address1" required />
 							<input type="text" id="address2" name="address2" required />

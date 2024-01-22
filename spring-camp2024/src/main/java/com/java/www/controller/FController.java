@@ -96,30 +96,6 @@ public class FController {
 		return "nUpdate";
 	}// nUpdate()
 	
-	//캠핑장 검색
-	@GetMapping("campsearch")
-	public String campsearch() {
-		return "campsearch";
-	}// campsearch()
-	
-	//캠핑장 검색-페이지
-	@GetMapping("campsearch_view")
-	public String campsearch_view() {
-		return "campsearch_view";
-	}// campsearch_view()
-	
-	//지도 검색
-	@GetMapping("mapsearch")
-	public String mapsearch() {
-		return "mapsearch";
-	}// mapsearch()
-	
-	//지도 검색-페이지
-	@GetMapping("mapsearch_view")
-	public String mapsearch_view() {
-		return "mapsearch_view";
-	}// mapsearch_view()
-	
 	//관리자페이지
 	@GetMapping("adminPage")
 	public String adminPage() {
@@ -167,18 +143,6 @@ public class FController {
 		return "pages_users";
 	}// pages_error404()
 
-	//테마검색
-	@GetMapping("tSearch")
-	public String tSearch() {
-		return "tSearch";
-	}// tSearch()
-	
-	//추천검색
-	@GetMapping("recommendsearch")
-	public String recommendsearch() {
-		return "recommendsearch";
-	}// recommendsearch()
-	
 	//용품대여
 	@GetMapping("cpRent")
 	public String cpRent() {

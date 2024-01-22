@@ -108,9 +108,9 @@
                 </label>
                 <input type="button" value="Login" id="loginBtn">
                 <div id="find">
-                	<span><a href="/" >아이디 찾기</a></span>
+                	<span><a href="idpw_search" >아이디 찾기</a></span>
                 	<span class="separator">|</span>
-                	<span><a href="/">비밀번호 찾기</a></span>
+                	<span><a href="idpw_search">비밀번호 찾기</a></span>
                 </div>
                 <hr class="line">
                 <input type="button" id="naverloginBtn" style="margin-bottom: 2px" >

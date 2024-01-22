@@ -26,9 +26,9 @@
 	    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 	
 	    <!-- Template Main CSS File -->
-	    <link href="assets/css/main2.css" rel="stylesheet">
-	    <link href="assets/css/header.css" rel="stylesheet">
-	    <link href="assets/css/campsearch.css" rel="stylesheet">
+	    <link href="../assets/css/main2.css" rel="stylesheet">
+		<link href="../assets/css/header.css" rel="stylesheet">
+		<link href="../assets/css/campsearch.css" rel="stylesheet">
 	    
 	    <style>
         
@@ -36,7 +36,7 @@
 	</head>
 	<body>
 	<!-- ======= Header ======= -->
-	<%@include file="include/header.jsp" %>
+	<%@include file="../include/header.jsp" %>
 	<!-- End Header -->
 	
 	<section class="notice_search">
@@ -260,7 +260,7 @@
                         <p>캠핑장주소</p>
                         <p>캠핑장연락처</p>
                         <p>캠핑장소개내용</p>
-                        <a href="/campsearch_view">바로가기</a>
+                        <a href="/search/campsearch_view">바로가기</a>
                     </div>
                 </li>
                 <li class="item item2">
@@ -396,7 +396,7 @@
 	</section>
 		
 		<!-- ======= Footer ======= -->
-	  	<%@include file="include/footer.jsp" %>
+	  	<%@include file="../include/footer.jsp" %>
 	 	<!-- End Footer -->
 	</body>
 </html>

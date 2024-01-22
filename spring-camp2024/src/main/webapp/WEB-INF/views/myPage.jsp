@@ -40,6 +40,7 @@
 	<%@include file="include/header.jsp" %>
 	<!-- End Header -->
 	<section>
+		<div class="MF_all">
 		<div class="titlePM">
 			<h3>마이페이지</h3>
 		</div>
@@ -61,7 +62,7 @@
 			 	<div class="orderDHigh_top">
 				 	<h3>주문/배송 조회</h3>
 				 	<div class="myCartMF">
-				 		<a href="/"><img src="../assets/img/mypage/mycart.png" alt="장바구니"><br><p>장바구니</p></a>
+				 		<a href="myCart"><img src="../assets/img/mypage/mycart.png" alt="장바구니"><br><p>장바구니</p></a>
 				 	</div>
 			 	</div>
 			 	<ul class="orderGrayBox">
@@ -103,10 +104,10 @@
 						<p>나의게시글<br>더보기</p>
 					</a>
 			
-					<a href="/" class="icon-link"><img src="../assets/img/login/party.png" alt="마이파티">
+					<a href="myParty" class="icon-link"><img src="../assets/img/login/party.png" alt="마이파티">
 						<p>마이파티<br>더보기</p>
 					</a>
-					<a href="/" class="icon-link"><img src="../assets/img/login/myRent.png" alt="나의 게시물">
+					<a href="myRental" class="icon-link"><img src="../assets/img/login/myRent.png" alt="나의 게시물">
 						<p>용품 대여<br>더보기</p>
 					</a>
 				</nav>
@@ -138,6 +139,7 @@
 			</div>
 		</div>
 		<!-- allCont2 끝  -->
+		</div><!--MF_all  -->
 		</section>
 		  <!-- ======= Footer ======= -->
 		  <%@include file="include/footer.jsp" %>

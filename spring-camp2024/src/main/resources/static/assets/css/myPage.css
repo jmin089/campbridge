@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
-	section {
+section {
 	margin: 150px 50px
 }
+.MF_all{
+	margin-left: 47px;
+}
+
 /* allCont 시작 */
 .proF {
 	border: 2px solid #5C8374;
@@ -15,6 +19,10 @@
 
 .photoPF {
 	margin-left: -15px;
+}
+.photoPF img{
+	width: 140px;
+	height: 140px;
 }
 
 .uerSetting { /* username+setting */
@@ -58,14 +66,17 @@
 	width: 780px;
 	height: 200px;
 }
-.orderDHigh_top{
+
+.orderDHigh_top {
 	display: flex;
 }
-.orderDHigh_top p{
-	color:#333333;
+
+.orderDHigh_top p {
+	color: #333333;
 }
-.orderDHigh_top p:hover{
-	color:#9EC8B9;
+
+.orderDHigh_top p:hover {
+	color: #9EC8B9;
 }
 
 .orderDHigh_top>h3 {
@@ -74,8 +85,7 @@
 	margin: 18px 0 0 54px;
 	width: 200px;
 	margin-right: 430px;
-    margin-left: 20px;
-	
+	margin-left: 20px;
 }
 
 .orderGrayBox {
@@ -89,7 +99,7 @@
 }
 
 .orderGrayBox li {
-	margin-top:8px;
+	margin-top: 8px;
 	float: left;
 	width: 20%;
 	list-style: none;
@@ -105,7 +115,6 @@
 	display: block;
 }
 
-
 .orderGrayBox li span {
 	top: 70px;
 	color: #666;
@@ -117,14 +126,16 @@
 	text-align: center;
 	vertical-align: top;
 }
-.myCartMF{
+
+.myCartMF {
 	width: 57px;
 	height: 53px;
 }
-.myCartMF p{
+
+.myCartMF p {
 	font-size: 12px;
-	width:50px;
-	margin:0 0 0 6px;
+	width: 50px;
+	margin: 0 0 0 6px;
 }
 /* allCont2 시작 */
 aside {

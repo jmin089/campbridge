@@ -26,9 +26,9 @@
 	    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 	
 	    <!-- Template Main CSS File -->
-	    <link href="assets/css/main2.css" rel="stylesheet">
-	    <link href="assets/css/header.css" rel="stylesheet">
-		<link href="assets/css/campsearch.css" rel="stylesheet">
+	    <link href="../assets/css/main2.css" rel="stylesheet">
+	    <link href="../assets/css/header.css" rel="stylesheet">
+		<link href="../assets/css/campsearch.css" rel="stylesheet">
 	    
 	    <style>
         
@@ -36,7 +36,7 @@
 	</head>
 	<body>
 	<!-- ======= Header ======= -->
-	<%@include file="include/header.jsp" %>
+	<%@include file="../include/header.jsp" %>
 	<!-- End Header -->
 	
 	<section class="notice_search">
@@ -229,7 +229,7 @@
 
 		
 	<!-- ======= Footer ======= -->
-  	<%@include file="include/footer.jsp" %>
+  	<%@include file="../include/footer.jsp" %>
  	<!-- End Footer -->
 	</body>
 </html>

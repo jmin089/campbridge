@@ -38,12 +38,12 @@
 	          </li>
 	          <li class="dropdown"><a href="#">캠핑장 검색</a>
 	          	<ul>
-		            <li><a href="/campsearch">캠핑장 검색</a></li>
-		            <li><a href="/mapsearch">지도 검색</a></li>
-		            <li><a href="/recommendsearch">campbridge 추천</a></li>
+		            <li><a href="/search/campsearch">캠핑장 검색</a></li>
+		            <li><a href="/search/mapsearch">지도 검색</a></li>
+		            <li><a href="/search/recommendsearch">campbridge 추천</a></li>
 		        </ul>
 	          </li>
-	          <li><a href="/tSearch">테마검색</a></li>
+	          <li><a href="/search/tSearch">테마검색</a></li>
 	          <li class="dropdown"><a href="#"><span>커뮤니티</span></a>
 	            <ul>
 	              <li><a href="/commuinty/pList">파티원모집</a></li>
