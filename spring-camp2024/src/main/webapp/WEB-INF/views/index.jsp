@@ -273,7 +273,7 @@
 
         <div class="section-header">
           <h2>RENT</h2>
-          <p><span> CampBridge   </span><i class="fa-solid fa-tents"></i>  대여해드려요</p>
+          <p><span> CampBridge   </span><i class="fa-solid fa-tents"></i>대여해드려요 <span id="rent_more"><a href="#">더보기</a></span></p>
         </div>
 
         <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -318,7 +318,7 @@
                 <a href="assets/img/main/bedding1.jpg"  class="glightbox"><img src="assets/img/main/bedding1.jpg" class="menu-img img-fluid" alt=""></a>
                 <h4>침낭</h4>
                 <p class="price">
-                 ₩1,000
+                 1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -326,7 +326,7 @@
                 <a href="assets/img/main/bedding2.jpg"  class="glightbox"><img src="assets/img/main/bedding2.jpg"class="menu-img img-fluid" alt=""></a>
                 <h4>발포매트</h4>
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -334,7 +334,7 @@
                 <a href="assets/img/main/bedding3.jpg"  class="glightbox"><img src="assets/img/main/bedding3.jpg" class="menu-img img-fluid" alt=""></a>
                 <h4>전기장판</h4>
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -342,7 +342,7 @@
                 <a href="assets/img/main/bedding4.jpg"  class="glightbox"><img src="assets/img/main/bedding4.jpg" class="menu-img img-fluid" alt=""></a>
                 <h4>베개</h4>
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
             </div>
@@ -362,7 +362,7 @@
                 <h4>의자</h4>
                
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -370,7 +370,7 @@
                 <a href="#"><img src="assets/img/main/funiture2.jpg" class="menu-img img-fluid" alt=""></a>
                 <h4>테이블</h4>
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -378,7 +378,7 @@
                 <a href="#"><img src="assets/img/main/funiture3.jpg" class="menu-img img-fluid" alt=""></a>
                 <h4>야전침대</h4>
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -398,7 +398,7 @@
                 <a href="#"><img src="assets/img/main/tableware1.jpg" class="menu-img img-fluid" alt=""></a>
                 <h4>코펠2인</h4>
                 <p class="price">
-                 ₩1,000
+                 1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -406,7 +406,7 @@
                 <a href="#"><img src="assets/img/main/tableware2.jpg" class="menu-img img-fluid" alt=""></a>
                 <h4>코펠4인</h4>
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -414,7 +414,7 @@
                 <a href="#"><img src="assets/img/main/tableware3.jpg" class="menu-img img-fluid" alt=""></a>
                 <h4>아이스박스28L</h4>
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -422,7 +422,7 @@
                 <a href="#"><img src="assets/img/main/tableware4.jpg" class="menu-img img-fluid" alt=""></a>
                 <h4>아이스박스40L</h4>
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -444,7 +444,7 @@
                 <h4>타프</h4>
             
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -453,7 +453,7 @@
                 <h4>버너</h4>
            
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -462,7 +462,7 @@
                 <h4>랜턴</h4>
           
                 <p class="price">
-                  ₩1,000
+                 1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -471,7 +471,7 @@
                 <h4>화로대</h4>
            
                 <p class="price">
-                 ₩1,000
+                 1,000원
                 </p>
               </div><!-- Menu Item -->
 
@@ -480,7 +480,7 @@
                 <h4>전기릴선</h4>
           
                 <p class="price">
-                  ₩1,000
+                  1,000원
                 </p>
               </div><!-- Menu Item -->
 

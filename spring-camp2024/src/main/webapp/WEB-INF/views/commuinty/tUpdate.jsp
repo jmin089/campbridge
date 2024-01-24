@@ -30,9 +30,9 @@
 	    <!-- Template Main CSS File -->
  		<link href="../assets/css/main2.css" rel="stylesheet">
        	<link href="../assets/css/header.css" rel="stylesheet">
-		<link href="../assets/css/listStyle.css" rel="stylesheet">
-		<link href="../assets/css/viewStyle.css" rel="stylesheet">
-		<link href="../assets/css/writeStyle.css" rel="stylesheet">
+		<link href="../assets/css/commuinty/listStyle.css" rel="stylesheet">
+		<link href="../assets/css/commuinty/viewStyle.css" rel="stylesheet">
+		<link href="../assets/css/commuinty/writeStyle.css" rel="stylesheet">
 	</head>
 	<body>
 	<!-- ======= Header ======= -->

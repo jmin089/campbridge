@@ -30,9 +30,15 @@
 	    <!-- Template Main CSS File -->
  		<link href="../assets/css/main2.css" rel="stylesheet">
        	<link href="../assets/css/header.css" rel="stylesheet">
-		<link href="../assets/css/listStyle.css" rel="stylesheet">
-		<link href="../assets/css/viewStyle.css" rel="stylesheet">
-		<link href="../assets/css/writeStyle.css" rel="stylesheet">
+		<link href="../assets/css/commuinty/listStyle.css" rel="stylesheet">
+		<link href="../assets/css/commuinty/viewStyle.css" rel="stylesheet">
+		<link href="../assets/css/commuinty/writeStyle.css" rel="stylesheet">
+		<script src="../assets/js/summernote-lite.js"></script>
+        <script src="../assets/js/summernote/lang/summernote-ko-KR.js"></script>
+		<link href="../assets/css/commuinty/summernote-lite.css" rel="stylesheet">
+		
+		<!-- Template nWrite JS File -->
+  		<script src="../assets/js/fWrite.js"></script>
 	</head>
 	<body>
 	<!-- ======= Header ======= -->
@@ -41,7 +47,6 @@
 	
 		<section class="notice">
 		
-		   
 			<!-- 자유게시판 글쓰기 -->
 	    	<h1 style="float: left; margin: 40px; font-weight: 700; position: relative; left:235px; top: 30px;">자유게시판 작성</h1>
 			<form action="" name="freeFrm" method="post" enctype="multipart/form-data">
@@ -67,7 +72,7 @@
 			        <td><input type="text" value="aaa" readonly="readonly" style="border: 1px solid transparent;"> </td>
 			      </tr>
 			      <tr>
-			        <td colspan="4" class="article"><textarea rows="9" name="f_bcontent" id="f_bcontent" placeholder=" ※ 게시글 내용을 입력해주세요."></textarea> </td>
+			        <td colspan="4" class="article"><textarea rows="9" name="f_bcontent" id="summernote" placeholder=" ※ 게시글 내용을 입력해주세요."></textarea> </td>
 			      </tr>
 			      <tr style="border-bottom: 2px solid #009223; line-height: 20px;">
 			        <td colspan="4" class="article"><input type="file" name="f_bfile" id="f_bfile"></td>
@@ -75,7 +80,7 @@
 			    </table>
 			</form>
 			<div class="listBtn">
-		    	<div class="list">저장</div>
+		    	<a href="#"><div class="list" id="saveBtn">저장</div></a>
 		    	<a href="fList"><div class="list">취소</div></a>
 			</div>
  		 </section>

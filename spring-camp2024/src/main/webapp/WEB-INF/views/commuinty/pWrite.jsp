@@ -30,9 +30,15 @@
 	    <!-- Template Main CSS File -->
  		<link href="../assets/css/main2.css" rel="stylesheet">
        	<link href="../assets/css/header.css" rel="stylesheet">
-		<link href="../assets/css/listStyle.css" rel="stylesheet">
-		<link href="../assets/css/viewStyle.css" rel="stylesheet">
-		<link href="../assets/css/writeStyle.css" rel="stylesheet">
+		<link href="../assets/css/commuinty/listStyle.css" rel="stylesheet">
+		<link href="../assets/css/commuinty/viewStyle.css" rel="stylesheet">
+		<link href="../assets/css/commuinty/writeStyle.css" rel="stylesheet">
+		<script src="../assets/js/summernote-lite.js"></script>
+        <script src="../assets/js/summernote/lang/summernote-ko-KR.js"></script>
+		<link href="../assets/css/commuinty/summernote-lite.css" rel="stylesheet">
+		
+		<!-- Template nWrite JS File -->
+  		<script src="../assets/js/pWrite.js"></script>
 	</head>
 	<body>
 	<!-- ======= Header ======= -->
@@ -78,7 +84,7 @@
 			        <td><input type="text" value="aaa" readonly="readonly" style="border: 1px solid transparent; margin-left: -40px;"> </td>
 			      </tr>
 			      <tr>
-			        <td colspan="4" class="article"><textarea rows="9" name="p_bcontent" id="p_bcontent" placeholder=" ※ 게시글 내용을 입력해주세요."></textarea> </td>
+			        <td colspan="4" class="article"><textarea rows="9" name="p_bcontent" id="summernote" placeholder=" ※ 게시글 내용을 입력해주세요."></textarea> </td>
 			      </tr>
 			      <tr style="border-bottom: 2px solid #009223; line-height: 20px;">
 			        <td colspan="4" class="article"><input type="file" name="p_bfile" id="p_bfile"></td>

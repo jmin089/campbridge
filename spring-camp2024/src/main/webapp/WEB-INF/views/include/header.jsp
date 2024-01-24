@@ -5,6 +5,7 @@
 	<head>
 	<meta charset="UTF-8">
 	<title>Header</title>
+	
 	</head>
 	<body>
 	 <!-- ======= Header ======= -->
@@ -17,12 +18,12 @@
 	        <h1>CampBridge<span>.</span></h1>
 	      </a>
 	      <div class="login d-flex">
-	      <li><a href="/login">로그인</a></li>
-	      <li><a href="/signUp">회원가입</a></li>
-	      <li><a href="/nList">공지사항</a></li>
+	      <li><a href="/my/login">로그인</a></li>
+	      <li><a href="/my/signUp">회원가입</a></li>
+	      <li><a href="/commuinty/nList">공지사항</a></li>
 	      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
 	      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-	      <a class="btn-book-a-table" href="/cpRent">용품대여</a>
+	      <a class="btn-book-a-table" href="/rent/cpRent">용품대여</a>
 	      </div>
 	    </div>
 		  	
@@ -33,7 +34,7 @@
 		          <ul>
 		              <li><a href="/aboutCB">CampBridge 소개</a></li>
 		              <li><a href="/developers">손발을 do it! 소개</a></li>
-		              <li><a href="/adminPage">CampBridge 관리자</a></li>
+		              <li><a href="/admin/adminPage">CampBridge 관리자</a></li>
 		          </ul>
 	          </li>
 	          <li class="dropdown"><a href="#">캠핑장 검색</a>
@@ -48,14 +49,14 @@
 	            <ul>
 	              <li><a href="/commuinty/pList">파티원모집</a></li>
 		          <li><a href="/commuinty/tList">캠핑꿀팁(Tip)</a></li>
-	              <li><a href="/used">중고거래&캠핑장 양도</a></li>
+	              <li><a href="/used/used">중고거래&캠핑장 양도</a></li>
 	              <li><a href="/commuinty/fList">자유게시판</a></li>
 	            </ul>
 	          </li>
-	          <li class="dropdown"><a href="#">리뷰</a>
+	          <li class="dropdown"><a href="/review/review">리뷰</a>
 		          <ul>
-		              <li><a href="/review">캠핑장 리뷰</a></li>
-		              <li><a href="/reviewcontent">캠핑용품 리뷰</i></a></li>
+		              <li><a href="/review/siteReview">캠핑장 리뷰</a></li>
+		              <li><a href="/review/equipReview">캠핑용품 리뷰</i></a></li>
 		          </ul>
 	          </li>
 	          <li><a href="#contact">픽업장소</a></li>

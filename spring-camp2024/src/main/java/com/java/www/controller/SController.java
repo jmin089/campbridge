@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SController {
 
 	//캠핑장 검색
-	@GetMapping("/campsearch")
+	@GetMapping("campsearch")
 	public String campsearch() {
 		return "/search/campsearch";
 	}// campsearch()
@@ -19,6 +19,8 @@ public class SController {
 	public String campsearch_view() {
 		return "/search/campsearch_view";
 	}// campsearch_view()
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////캠핑장 검색
 	
 	//지도 검색
 	@GetMapping("mapsearch")
@@ -32,16 +34,22 @@ public class SController {
 		return "/search/mapsearch_view";
 	}// mapsearch_view()
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////지도 검색
+	
 	//추천검색
 	@GetMapping("recommendsearch")
 	public String recommendsearch() {
 		return "/search/recommendsearch";
 	}// recommendsearch()
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////추천 검색
+	
 	//테마검색
 	@GetMapping("tSearch")
 	public String tSearch() {
 		return "/search/tSearch";
 	}// tSearch()
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////테마 검색
 
 }
