@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>캠핑장리뷰</title>
+<title>캠핑용품리뷰 - 리스트</title>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <meta content="" name="description">
 <meta content="" name="keywords">
@@ -23,244 +23,214 @@
 	rel="stylesheet">
 
 <!-- Vendor CSS Files -->
-<link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-<link href="../assets/vendor/aos/aos.css" rel="stylesheet">
-<link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-<link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<link href="/assets/vendor/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
+<link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+	rel="stylesheet">
+<link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="/assets/vendor/glightbox/css/glightbox.min.css"
+	rel="stylesheet">
+<link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
 <!-- Template Main CSS File -->
-<link href="../assets/css/main2.css" rel="stylesheet">
-<link href="../assets/css/review/reviewcontent.css" rel="stylesheet" type="text/css">
-<link href="../assets/css/review/siteReview.css" rel="stylesheet" type="text/css">
-<link href="../assets/css/review/listStyle2.css" rel="stylesheet" type="text/css">
-<link href="../assets/css/review/header2.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/main2.css" rel="stylesheet">
+<link href="/assets/css/review/review2.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/review/campsearch1.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/review/header2.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<!-- ======= Header ======= -->
 	<%@include file="../include/header.jsp"%>
 	<!-- End Header -->
-	<section class="headerCss">
+	<br>
+	<br>
+	<br>
+	<div id="contentWrapper">
 		<div id="contentWrap">
-			<link type="text/css" rel="stylesheet"
-				href="/template_common/shop/basic_simple/menu.1.css?t=201711221039" />
+			<link type="text/css" rel="stylesheet" href="#">
 			<div id="content">
 				<div id="bbsData">
 					<div class="page-body">
 						<div class="camp-img-div">
-							<img src="assets/img/campReview/free_icon_icon.png" alt="캠핑용품리뷰"
-								style="position: relative; margin-top: 40px; margin-bottom: 10px;">
+							<img src="../assets/img/campReview/free-icon-forest-8856738.png"
+								alt="캠핑리뷰이미지" style="position: relative; left: 475px;">
 							<h1 style="text-align: center;">캠핑용품리뷰</h1>
 						</div>
-						<!-- <div class="bbs-hd">
-							<ul class="link">
-								<li><a href="#">캠핑용품리뷰</a></li> &nbsp &nbsp &nbsp &nbsp
-								<li><a href="#">캠핑장리뷰</a></li>
-							</ul>
-						</div> -->
 						<br> <br> <br>
-						<div class="bbs-tit">
-							<h3>캠핑용품리뷰</h3>
-						</div>
-						<dl class="prd-tinfo">
-							<dt>
-								<a href="#"><img src="assets/img/campReview/review2.jpg" /></a>
-							</dt>
-							<dd>
-								<ul>
-									<li class="name"><span class="tit">상품명 :</span> <a
-										href="assets/img/campReview/review2.jpg">&nbsp;스노우피크 무한 손전등</a></li>
-								<!-- 	<li class="price"><span class="tit">판매가 :</span> 100,000원</li> -->
-								</ul>
-							</dd>
-						</dl>
-						<br>
-					<form id="comment_form" name="comment" action="#" method="post" autocomplete="off" 
-					style="height: 1800px; position: relative; top: 100px; left: 270px;">
-						<div class="bbs-table-view">
-							<table summary="게시글 보기">
-								<caption>게시글 보기</caption>
-								<thead>
-									<tr>
-										<th><div class="tb-center"> 스노우피크 무한 손전등</div></th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td class="line">
-											<div class="cont-sub-des">
-												<div>
-													<span><em>Date :</em> 2024.01.17 08:00:58</span>
-												</div>
-												<div>
-													<span class="writer"><em>Name :</em> 뿌라빠파 </span> <span><em>Hits
-															:</em> 2</span>
-												</div>
-											</div>
-										</td>
-									</tr>
-									<tr>
-										<td>
-											<div class="data-bd-cont">
-												<div id=MS_WritenBySEB>얼른 구매하세용~</div>
-												<br> <img src="assets/img/campReview/review2.jpg"
-													style="width: 400px; height: 400px;">
-											</div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<div id="comment_list_0"></div>
+								<div class="bbs-sch">
+									<form action="#" name="form1">
+										<input type="hidden" name="s_id" value=""> <input
+											type="hidden" name="code" value="ocamall_image1"> <input
+											type="hidden" name="page" value="1"> <input
+											type="hidden" name="type" value="s"> <input
+											type="hidden" name="board_cate" value=""> <input
+											type="hidden" name="review_type" value="">
+										<!-- .검색 폼시작 -->
+										<fieldset>
+											<legend>게시판 검색 폼</legend>
+											<label> 
+											<input type="checkbox" name="shname" value="ok" onclick="change(1);" class="MS_input_radio">이름</label> 
+											<label> <input type="checkbox" name="ssubject" value="ok" onclick="change(2);" checked="checked"
+												class="MS_input_checkbox"> 제목</label> 
+											<label> <input type="checkbox" name="scontent" value="ok" onclick="change(3);" class="MS_input_checkbox">내용</label> 
+											<span class="key-wrap"> 
+											<input type="text" name="stext" value="" class="MS_input_txt"> <a href="javascript:document.form1.submit();"> 
+											<img src="https://image.makeshop.co.kr/makeshop/d3/basic_simple/bbs/btn_bbs_sch.gif" alt="검색" title="검색"></a>
+											</span>
+										</fieldset>
+									</form>
+								<!-- .검색 폼 끝 -->
+								</div>
+								
+							<div class="bbs-tit">
+								<div class="viewtab-review">
+									<input type="radio" name="tabreview" id="tabreview1">
+									<label for="tabreview1">캠핑장리뷰</label>
+									<input type="radio" name="tabreview" id="tabreview2" checked> 
+									<label for="tabreview2">캠핑용품리뷰</label>
+								</div>
+						<div class="reviewbox2">
+							</div> 
 							
-								<input type="hidden" name="page_type" value="board_view" /> <input
-									type="hidden" name="formnum" value="0" /> <input type="hidden"
-									name="code" value="ocamall_board13" /> <input type="hidden"
-									name="num1" value="998627" /> <input type="hidden" name="num2"
-									value="00000" /> <input type="hidden" name="page" value="1" />
-								<input type="hidden" name="lock" value="N" /> <input
-									type="hidden" name="type" value="v" /> <input type="hidden"
-									name="uti" value="1705459911" /> <input type="hidden"
-									name="key"
-									value="aqT3cAkuQhSMdd9t5n0exgHGEMulYxadTSJSwoN5qtPU19Dm/4pWyQ==" />
-								<input type="hidden" name="type2" /> <input type="hidden"
-									name="comnum" /> <input type="hidden" name="comtype" /> <input
-									type="text" name="___DUMMY___" readonly disabled
-									style="display: none;" /><input type="hidden" name="secret"
-									value="N" />
-
-								<div class="bfileUpload"
-									style="border-bottom: 2px solid #009223; height: 81.5px;">
-									<tr style="text-align: center;">
-										<div
-											style="width: 85.88px; height: 81.5; position: relative; left: 10px; top: 25px;">
-											<td class="article" style="position: relative; left: 5px;"><strong>첨부파일
-											</strong></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										</div>
-										<div
-											style="width: 773.02px; height: 81.5; position: relative; left: 100px; bottom: 21px;">
-											<td colspan="3" style="text-align: center;">※첨부파일 없음</td>
-										</div>
-									</tr>
-								</div>
-
-
-								<!-- 하단 버튼 -->
-								<!-- 버튼 -->
-								<tr>
-									<input type="password" name="replyPw" id="replyIPw"
-									placeholder=" ※ 입력시 비밀글로 저장" style="width: 170px; height: 28px; position: relative; top: 65px;">
-								</tr>
-								
-								
-								<div class="listBtn">
-									<button class="list">삭제</button>
-									<a href="fUpdate"><button class="list">수정</button></a> <a
-										href="fList"><button class="list">목록</button></a>
-								</div>
-
-
-								<!-- 댓글입력-->
-						<!-- 		<table id="replyPw" style="position: relative; left: 280px; bottom: 10px;">
-									<tr>
-										<tr>
-										<td id="replyBorder" style="width: 100px; height: 22px; position: relative; left: 290px; top: 10px;
-										border: 1px solid white; font-size: 14px;"><strong>댓글 비밀번호</strong>
-										</tr>
-										<tr>
-										<input type="password" name="replyPw" id="replyIPw"
-										placeholder=" ※ 입력시 비밀글로 저장" style="width: 170px; height: 28px; position: relative; left: 820px; top: 150px;">
-										</tr>
-								</table> -->
-								<table>
-									<tr>
-										<textarea
-											placeholder=" ※ 댓글을 입력하세요. (타인을 향한 욕설 및 비방은 무통보 삭제됩니다.)"
-											style="width: 1000px; height: 88px; position: relative; bottom: 2px;"></textarea>
-										<button id="replybtn" style="width: 84.33px; height: 88px;">등록</button>
-									</tr>
-								</table>
-
-								<!-- 이전글/다음글-->
-								<table
-									style="margin-top: -150px; position: relative; top: 120px; font-size: 14px; width: 1100px;">
-									<tr>
-										<td colspan="4"><strong>다음글</strong> <span
-											class="separator">|</span><a href="#"> [키즈잼] 2월 프로그램 안내</a></td>
-									</tr>
-									<tr>
-										<td colspan="4"><strong>이전글</strong> <span
-											class="separator">|</span><a href="#"> [키즈잼] 2020년 1분기 정기
-												휴관일 안내</a></td>
-									</tr>
-								</table>
-								<!-- 이전글/다음글 끝-->
-
-								<!-- 댓글보기-->
-								<table
-									style="margin-top: 70px; position: relative; top: 120px; font-size: 14px; width: 1100px;">
-									<td style="font-weight: 700">총<strong
-										style="color: #009223">&nbsp;&nbsp;5</strong>&nbsp;개의 댓글이
-										등록되었습니다.
-									</td>
-									<tr>
-										<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12
-												15:27:23:00]</span>
-											<li id="replyTxt">&nbsp;&nbsp;댓글내1용일 들어갑니다. <br>ex)이벤트
-												너무 좋아요! 꼭 참여해서 혜택받아볼게요!
-										</li>
-											<li id="replyBtn">
-												<button id="rDelBtn">삭제</button>
-												<button id="rUBtn">수정</button>
-										</li></td>
-									</tr>
-									<tr>
-										<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12
-												15:27:23:00]</span>
-											<li id="replyTxt">&nbsp;&nbsp;댓글내용일 들어갑니다. <br>ex)이벤트
-												너무 좋아요! 꼭 참여해서 혜택받아볼게요!
-										</li>
-											<li id="replyBtn">
-												<button id="rDelBtn">삭제</button>
-												<button id="rUBtn">수정</button>
-										</li></td>
-									</tr>
-									<tr>
-										<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12
-												15:27:23:00]</span>
-											<li id="replyTxt">&nbsp;&nbsp;댓글내용일 들어갑니다. <br>ex)이벤트
-												너무 좋아요! 꼭 참여해서 혜택받아볼게요!
-										</li>
-											<li id="replyBtn">
-												<button id="rDelBtn">삭제</button>
-												<button id="rUBtn">수정</button>
-										</li></td>
-									</tr>
-									<tr>
-										<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12
-												15:27:23:00]</span>
-											<li id="replyTxt">&nbsp;&nbsp;댓글내용일 들어갑니다. <br>ex)이벤트
-												너무 좋아요! 꼭 참여해서 혜택받아볼게요!
-										</li>
-											<li id="replyBtn">
-												<button id="rDelBtn">삭제</button>
-												<button id="rUBtn">수정</button>
-										</li></td>
-									</tr>
-									<tr>
-										<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12
-												15:27:23:00]</span>
-											<li id="replyTxt">&nbsp;&nbsp;댓글내용일 들어갑니다. <br>ex)이벤트
-												너무 좋아요! 꼭 참여해서 혜택받아볼게요!
-										</li>
-											<li id="replyBtn">
-												<button id="rDelBtn">삭제</button>
-												<button id="rUBtn">수정</button>
-										</li></td>
-									</tr>
-
-								</table>
-								<!-- 댓글보기 끝-->
 						</div>
+							<!-- bbs-tit  -->
+							
+					
+						<!-- 카드형 리스트 -->
+						<div class="list_wrap" style="height: 1300px;  border-top: 3px solid #009223; border-bottom: 3px solid #009223;">
+							<ul>
+								<li class="item item1">
+									<div class="image">										
+										<img src="../assets/img/campReview/campReview.jpg"
+											style="width: 100%; height: 200px; border-radius: 10px;" />
+									</div>
+									<div class="cont">
+										<strong>카라반캠핑장추천해요</strong>
+										<p>뿌라빠파님</p>
+										<p>경기용인카라반</p>
+										<p>
+											안녕하세요. 경기카라반 <br>캠핑장 입니다. 저희...
+										</p>
+										<div class="heartwrap">
+											<span class="date"><i class="fa fa-clock-o"
+												aria-hidden="true"></i> 1년 전</span> <span class="reviewhit">269</span>
+											<img
+												src="https://www.5gcamp.com/modules/usemarket/theme/_pc/default/image/heart-o.svg"
+												alt="" width="20" class="heart1">
+										</div>
+										<a href="review_equip">바로가기</a>
+									</div>
+								</li>
+								<li class="item item1">
+									<div class="image">
+										<img src="../assets/img/campReview/campReview.jpg"
+											style="width: 260px; height: 200px; border-radius: 10px;" />
+									</div>
+									<div class="cont">
+										<strong>카라반캠핑장</strong>
+										<p>경기도 > 용인시 > 동막골</p>
+										<p>010-****-****</p>
+										<p>
+											안녕하세요. 경기카라반 <br>캠핑장 입니다. 저희...
+										</p>
+										<div class="heartwrap">
+											<span class="date"><i class="fa fa-clock-o"
+												aria-hidden="true"></i> 1년 전</span> <span class="reviewhit">269</span>
+											<img
+												src="https://www.5gcamp.com/modules/usemarket/theme/_pc/default/image/heart-o.svg"
+												alt="" width="20" class="heart1">
+										</div>
+										<a href="review_equip">바로가기</a>
+									</div>
+								</li>
+								<li class="item item1">
+									<div class="image">
+										<img src="../assets/img/campReview/campReview.jpg"
+											style="width: 260px; height: 200px; border-radius: 10px;" />
+									</div>
+									<div class="cont">
+										<strong>카라반캠핑장</strong>
+										<p>경기도 > 용인시 > 동막골</p>
+										<p>010-****-****</p>
+										<p>
+											안녕하세요. 경기카라반 <br>캠핑장 입니다. 저희...
+										</p>
+										<div class="heartwrap">
+											<span class="date"><i class="fa fa-clock-o"
+												aria-hidden="true"></i> 1년 전</span> <span class="reviewhit">269</span>
+											<img
+												src="https://www.5gcamp.com/modules/usemarket/theme/_pc/default/image/heart-o.svg"
+												alt="" width="20" class="heart1">
+										</div>
+										<a href="equipReview">바로가기</a>
+									</div>
+								</li>
+								<li class="item item4">
+									<div class="image">사진</div>
+									<div class="cont">
+										<strong>캠핑장이름</strong>
+										<p>캠핑장주소</p>
+										<p>캠핑장연락처</p>
+										<p>캠핑장소개내용</p>
+										<a href="equipReview">바로가기</a>
+									</div>
+								</li>
+								<li class="item item5">
+									<div class="image">사진</div>
+									<div class="cont">
+										<strong>캠핑장이름</strong>
+										<p>캠핑장주소</p>
+										<p>캠핑장연락처</p>
+										<p>캠핑장소개내용</p>
+										<a href="equipReview">바로가기</a>
+									</div>
+								</li>
+								<li class="item item6">
+									<div class="image">사진</div>
+									<div class="cont">
+										<strong>캠핑장이름</strong>
+										<p>캠핑장주소</p>
+										<p>캠핑장연락처</p>
+										<p>캠핑장소개내용</p>
+										<a href="equipReview">바로가기</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+						</div>
+</div>
+
+						<!-- 하단 페이징 & 버튼 -->
+						<div class="bbs-btm">
+							<div class="bbs-link">
+								<a
+									href="#"
+									class="CSSbuttonWhite">글쓰기</a>
+							</div>
+
+							<div>
+								<ul class="page-num-review">
+									<li class="first-num"></li>
+									<li class="prev-num"></li>
+									<li class="num-review">1</li>
+									<li class="num-review">2</li>
+									<li class="num-review">3</li>
+									<li class="num-review">4</li>
+									<li class="num-review">5</li>
+									<li class="num-review">6</li>
+									<li class="num-review">7</li>
+									<li class="num-review">8</li>
+									<li class="num-review">9</li>
+									<li class="num-review">10</li>
+									<li class="next-num"></li>
+									<li class="last-num"></li>
+								</ul>
+							</div>
+							<!-- //하단 페이징 & 버튼 -->
+
+						</div>
+						<!-- //하단 페이징 & 버튼 -->
+
 					</div>
 					<!-- .page-body -->
 				</div>
@@ -269,34 +239,11 @@
 			<!-- #content -->
 		</div>
 		<!-- #contentWrap -->
-		</div>
-		<!-- #contentWrapper-->
-	</section>
-	<!-- 하단 넘버링  -->
-	<!-- <div>
-		<ul class="page-num-used">
-			<li class="first-num"></li>
-			<li class="prev-num"></li>
-			<li class="num-used">1</li>
-			<li class="num-used">2</li>
-			<li class="num-used">3</li>
-			<li class="num-used">4</li>
-			<li class="num-used">5</li>
-			<li class="num-used">6</li>
-			<li class="num-used">7</li>
-			<li class="num-used">8</li>
-			<li class="num-used">9</li>
-			<li class="num-used">10</li>
-			<li class="next-num"></li>
-			<li class="last-num"></li>
-		</ul>
-	</div> -->
+	
 
 
 		<!-- ======= Footer ======= -->
 		<%@include file="../include/footer.jsp"%>
 		<!-- End Footer -->
-</body>
-
 </body>
 </html>
