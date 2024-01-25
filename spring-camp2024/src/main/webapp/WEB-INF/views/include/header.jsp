@@ -53,7 +53,7 @@
 	              <li><a href="/commuinty/fList">자유게시판</a></li>
 	            </ul>
 	          </li>
-	          <li class="dropdown"><a href="/review/review">리뷰</a>
+	          <li class="dropdown"><a href="#">리뷰</a>
 		          <ul>
 		              <li><a href="/review/siteReview">캠핑장 리뷰</a></li>
 		              <li><a href="/review/equipReview">캠핑용품 리뷰</i></a></li>
