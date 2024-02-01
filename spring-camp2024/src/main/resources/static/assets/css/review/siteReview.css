@@ -28,6 +28,9 @@ td {
 
 }
 
+.data-bd-cont{height: 100%;}
+#MS_WritenBySEB{width: 1062px; height: 100%;}
+
 th,
 td {
   text-align: left;

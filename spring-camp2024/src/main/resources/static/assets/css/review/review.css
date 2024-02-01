@@ -43,6 +43,24 @@ input[type="radio"]{display: none; float: left;}
 input[type="radio"]+label{display: inline-block; margin-top: -57px; float: left; padding: 15px; background: #ffce32; color: black; font-weight: 700; font-size: 20px; cursor: pointer; border-top-left-radius: 10px; border-top-right-radius: 10px;}
 input[type="radio"]:checked+label{background: #009223; color: #fff; float: left; margin-top: -57px;} 
 
+.brief_description {
+    width: 230px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    max-height: 2.9em; /* 2줄의 높이를 기준으로 조절, font-size 및 line-height에 따라 조절 필요 */
+    margin-right: 10px;
+}
+.brief_title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block; /* 또는 block 등, 요구에 따라 설정 */
+    max-width: 100%; /* 원하는 최대 너비로 설정 */
+    margin-right: 10px;
+}
 
 
 #contentWrap {
@@ -79,8 +97,6 @@ input[type="radio"]:checked+label{background: #009223; color: #fff; float: left;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
 
 #contentWrap:after {
 	content: "";
@@ -565,6 +581,7 @@ a {
 
 /* 카드형 리스트 내용  */
 .heartwrap{
+	margin-top: -15px;
     margin-bottom: 10px;
     border-bottom: 1px #ddd solid;
     padding-bottom: 10px;
@@ -572,7 +589,7 @@ a {
 }
 
 .heart1{
-	margin-left: 200px;
+	margin-left: 220px;
 	width: 15px;
 }
 
@@ -592,8 +609,9 @@ a {
 	color: #666;
     font-size: 13px;
     position: relative;
-    left: 60px;
+    left: -10px;
     top: 25px;
+    float: right;
 }
 
 /* 하단 넘버링  */
